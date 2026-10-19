@@ -1,7 +1,8 @@
 # Okta IAM Lab Series - My Hands-On Labs
-**By:** Sanjeev Shrestha | Dallas–Fort Worth Area, Texas, USA 
-**Okta Org** — Integrator Free Plan at [developer.okta.com](https://developer.okta.com) - My org: <my-okta-org>-admin.okta.com
-**Goal:** IAM Engineer/Developer roles - 2027 - Preparing for Okta Certified Professional (OCP)
+**By:** Sanjeev Shrestha | Dallas–Fort Worth Area, Texas, USA <br>
+**Okta Org** Integrator Free Plan at [developer.okta.com](https://developer.okta.com) <br>
+**My org:** <my-okta-org> admin.okta.com <br>
+**Goal:** IAM Engineer/Developer roles - 2027 - Preparing for Okta Certified Professional (OCP) <br>
 **Original:** Forked from RyanKennon/Okta-Lab-Series
 
 ## Skills Demonstrated
