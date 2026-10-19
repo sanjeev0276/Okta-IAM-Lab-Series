@@ -1,11 +1,21 @@
 # Okta IAM Lab Series - My Hands-On Labs
-**By:** Sanjeev Shrestha | Allen, TX (Dallas area)
-**Okta Org:** integrator-5888282-admin.okta.com (Integrator Free Plan - Forever)
-**Goal:** IAM Analyst / Identity Engineer roles - Jan 2027 - OCP Prep
+**By:** Sanjeev Shrestha | Dallas–Fort Worth Area, Texas, USA 
+**Okta Org** — Integrator Free Plan at [developer.okta.com](https://developer.okta.com) - My org: <my-okta-org>-admin.okta.com
+**Goal:** IAM Engineer/Developer roles - 2027 - Preparing for Okta Certified Professional (OCP)
 **Original:** Forked from RyanKennon/Okta-Lab-Series
 
+## Skills Demonstrated
+* Okta Administration
+* User Lifecycle Management
+* Group-Based Access Control
+* RBAC Design
+* SAML Federation
+* MFA Policies
+* Active Directory Integration
+* JML Automation
+  
 ## My Progress
-- [x] Lab 1: Tenant Setup - Done Oct 19 2026 - integrator-5888282
+- [x] Lab 1: Tenant Setup - Done Oct 19 2026 
 - [ ] Lab 2: AD Integration - In Progress
 - [ ] Lab 3: RBAC
 - [ ] Lab 4: SAML SSO
@@ -13,26 +23,24 @@
 - [ ] Lab 6: JML Lifecycle
 
 ## Lab Evidence (screenshots from my org)
-- [Add screenshots from integrator-5888282-admin.okta.com as you finish]
+- [Add screenshots from <my-okta-org>-admin.okta.com as you finish]
 
 ## Key Learnings
 - [Write 2 lines per lab]
 
 <p align="center">
-  <img src="Header.png" img width="900" height="500" alt="image">
+  <img src="Header.png" width="900" height="500" alt="Okta IAM Lab Series">
 </p>
 
 # Okta IAM Lab Series
-
 This repository serves as the central hub for the Okta IAM Lab Series — a collection of hands-on identity and access management labs built around the Okta Identity Cloud platform. Each lab builds on the previous one, starting with foundational Okta tenant configuration and progressively covering Active Directory integration, SAML-based Single Sign-On, Multi-Factor Authentication, and JML lifecycle automation. All labs are performed in a live Okta trial org and reflect real-world IAM practices aligned with the responsibilities of an entry-level IAM Analyst or Identity Engineer. The series is designed to build a comprehensive Okta portfolio demonstrating hands-on proficiency across the core competencies tested in the Okta Certified Professional (OCP) exam and commonly required in IAM Analyst job descriptions.
 
 ---
 
 ## Prerequisites
-
 The following are required before starting the Okta IAM Lab Series:
 
-- **Okta Trial Org** — Sign up for a free Okta trial org at [developer.okta.com](https://developer.okta.com). This org will be used across all labs in the series and should not be deleted between labs.
+- **Okta Trial Org** — Sign up for a free Integrator Free Plan at [developer.okta.com](https://developer.okta.com). This org will be used across all labs in the series and should not be deleted between labs.
 - **Microsoft Azure Account** — A personal Azure account with an active subscription is required for labs involving Active Directory. Sign up for a free account with $200 in credits at [azure.microsoft.com/free](https://azure.microsoft.com/free).
 - **Windows Server 2022 VM** — Required for Active Directory labs. Follow the setup steps in the [Active Directory Enterprise Administration Lab](https://github.com/RyanKennon/Active-Directory) through the **Create Organizational Units** section before starting Lab 2.
 - **GitHub Account** — Required to follow along with lab documentation and host your own portfolio.
