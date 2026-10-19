@@ -1,3 +1,8 @@
+## My Lab Progress - Org: integrator-5888282 - Allen, TX
+- [x] Lab 1 - Tenant Setup - Done Oct 19 2026
+- [ ] Lab 2 - AD Integration - In Progress
+- [ ] Lab 3-6 - TODO for IAM jobs in 2027
+
 <p align="center">
   <img src="Header.png" img width="900" height="500" alt="image">
 </p>
