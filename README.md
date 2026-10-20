@@ -26,7 +26,7 @@
 ## Lab Evidence (screenshots from my org)
 ### Lab 1: Tenant Setup
 ![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png)
-![People](screenshots/lab1/users.png)
+![People](screenshots/lab1/People.png)
 ## Key Learnings
 - [Write 2 lines per lab]
 
