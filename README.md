@@ -25,13 +25,16 @@
 
 ## Lab Evidence (screenshots from my org)
 ### Lab 1: Tenant Setup
-![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png)
+![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png) <br>
+### **People** <br><br>
 ![People](screenshots/lab1/People.png)
+### **Groups** <br><br>
+![Groups(screenshots/lab1/Groups.png)
 ## Key Learnings
 - [Write 2 lines per lab]
 
 <p align="center">
-  <img src="Header.png" width="900" height="500" alt="Okta IAM Lab Series">
+  <img src="Header.png" width="400" height="200" alt="Okta IAM Lab Series">
 </p>
 
 # Okta IAM Lab Series
