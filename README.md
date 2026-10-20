@@ -30,10 +30,19 @@
 ![Organization Contact](screenshots/lab1/Image1.png)
 ### **People:** <br>
 ![People](screenshots/lab1/People.png)
+### **Custom Profile Attributes:** <br>
+![Custom_Profile_Attributes](screenshots/lab1/Custom_Profile_Attributes.png)
 ### **Groups:** <br>
 ![Groups](screenshots/lab1/Groups.png)
 ### **Group Rules:** <br>
 ![Groups_Rules](screenshots/lab1/Group_Rules.png)
+### **Global Session Policy:** <br>
+![Global_Session_Policy](screenshots/lab1/Global_Session_Policy.png)
+### **Authentication Policies:** <br>
+![Authentication Policies](screenshots/lab1/Authentication_Policies.png)
+### **Authenticator Enrollment Policy:** <br>
+![Authenticator_Enrollment_Policy](screenshots/lab1/Authenticator_Enrollment_Policy.png)
+
 ## Key Learnings
 - [Write 2 lines per lab]
 
