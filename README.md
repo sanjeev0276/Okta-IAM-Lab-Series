@@ -24,8 +24,9 @@
 - [ ] Lab 6: JML Lifecycle
 
 ## Lab Evidence (screenshots from my org)
-- [Add screenshots from <my-okta-org>-admin.okta.com as you finish]
-
+### Lab 1: Tenant Setup
+![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png)
+![People](screenshots/lab1/users.png)
 ## Key Learnings
 - [Write 2 lines per lab]
 
