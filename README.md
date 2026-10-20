@@ -26,6 +26,8 @@
 ## Lab Evidence (screenshots from my org)
 ### Lab 1 - Okta Tenant Setup & Configuration
 ![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png) <br>
+### **Architecture Diagram:** <br>
+![Architecture_Diagram](screenshots/lab1/Architecture_Diagram.png) <br>
 ### **Organization Contact:** <br>
 ![Organization Contact](screenshots/lab1/Image1.png)
 ### **People:** <br>
