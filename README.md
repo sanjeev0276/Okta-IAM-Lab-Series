@@ -24,12 +24,16 @@
 - [ ] Lab 6: JML Lifecycle
 
 ## Lab Evidence (screenshots from my org)
-### Lab 1: Tenant Setup
+### Lab 1 - Okta Tenant Setup & Configuration
 ![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png) <br>
-### **People** <br><br>
+### **Organization Contact:** <br>
+![Organization Contact](screenshots/lab1/Image1.png)
+### **People:** <br>
 ![People](screenshots/lab1/People.png)
-### **Groups** <br><br>
-![Groups(screenshots/lab1/Groups.png)
+### **Groups:** <br>
+![Groups](screenshots/lab1/Groups.png)
+### **Group Rules:** <br>
+![Groups_Rules](screenshots/lab1/Group_Rules.png)
 ## Key Learnings
 - [Write 2 lines per lab]
 
