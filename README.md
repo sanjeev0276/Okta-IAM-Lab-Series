@@ -26,7 +26,7 @@
 ## Lab Evidence (screenshots from my org)
 ### Lab 1 - Okta Tenant Setup & Configuration
 ![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png) <br>
-### **Architecture Diagram:** <br>
+### **Lab 1 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab1/Architecture_Diagram.png) <br>
 ### **Organization Contact:** <br>
 ![Organization Contact](screenshots/lab1/Image1.png)
@@ -45,8 +45,9 @@
 ### **Authenticator Enrollment Policy:** <br>
 ![Authenticator_Enrollment_Policy](screenshots/lab1/Authenticator_Enrollment_Policy.png)
 
-## Key Learnings
-- [Write 2 lines per lab]
+## Lab 1 - Key Learnings
+- Learned how to set up a clean Okta tenant from scratch - Branding, People, Custom Profile Attributes, and how Global Session Policy is separate from Authentication Policies and Authenticator Enrollment Policy.
+- Learned to build the foundation right - People, Groups, and Group Rules first, so later RBAC and SAML apps just work with automated assignments instead of manual adds.
 
 <p align="center">
   <img src="Header.png" width="400" height="200" alt="Okta IAM Lab Series">
