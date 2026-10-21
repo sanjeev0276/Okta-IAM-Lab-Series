@@ -51,7 +51,15 @@
 
 ### Lab 2- Okta Active Directory Integration <br>
 ### **Lab 2 - Architecture Diagram:** <br>
-![Architecture_Diagram](screenshots/lab12/Architecture_Diagram.png) <br>
+![Architecture_Diagram](screenshots/lab2/Architecture_Diagram.png) <br>
+### **From AD To Okta:** <br>
+![FromAD_To_Okta](screenshots/lab2/FromAD_To_Okta.png)
+### **Enabled Deletegated Authentication:** <br>
+![Enabled_Deletegated_Authentication](screenshots/lab2/Enabled_Deletegated_Authentication.png)
+
+### **User Profile Mapping AD:** <br>
+![User_Profile_Mapping_AD](screenshots/lab2/User_Profile_Mapping_AD.png)
+
 
 <p align="center">
   <img src="Header.png" width="400" height="200" alt="Okta IAM Lab Series">
