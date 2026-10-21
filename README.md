@@ -17,7 +17,7 @@
   
 ## My Progress
 - [x] Lab 1: Tenant Setup - Done Oct 19 2026 
-- [ ] Lab 2: AD Integration - In Progress
+- [X] Lab 2: AD Integration - In Progress
 - [ ] Lab 3: RBAC
 - [ ] Lab 4: SAML SSO
 - [ ] Lab 5: MFA / Adaptive
@@ -48,6 +48,11 @@
 ## Lab 1 - Key Learnings
 - Learned how to set up a clean Okta tenant from scratch - Branding, People, Custom Profile Attributes, and how Global Session Policy is separate from Authentication Policies and Authenticator Enrollment Policy.
 - Learned to build the foundation right - People, Groups, and Group Rules first, so later RBAC and SAML apps just work with automated assignments instead of manual adds.
+
+### Lab 2- Okta Active Directory Integration
+<br>
+### **Lab 2 - Architecture Diagram:** <br>
+![Architecture_Diagram](screenshots/lab12/Architecture_Diagram.png) <br>
 
 <p align="center">
   <img src="Header.png" width="400" height="200" alt="Okta IAM Lab Series">
