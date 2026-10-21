@@ -61,6 +61,9 @@
 ### **User Profile Mapping Okta:** <br>
 ![User_Profile_Mapping_Okta](screenshots/lab2/User_Profile_Mapping_Okta.png)
 
+## Lab 2 - Key Learnings
+- AD is source of truth — _Users OU allenlab.local creates user, Okta never creates AD.
+- Incremental vs Full Import — Incremental = only changed objects, Full = all 4 users + 26 groups — Use Incremental for daily, Full for fixes
 
 <p align="center">
   <img src="Header.png" width="400" height="200" alt="Okta IAM Lab Series">
