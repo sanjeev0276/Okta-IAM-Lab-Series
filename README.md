@@ -56,9 +56,10 @@
 ![FromAD_To_Okta](screenshots/lab2/FromAD_To_Okta.png)
 ### **Enabled Deletegated Authentication:** <br>
 ![Enabled_Deletegated_Authentication](screenshots/lab2/Enabled_Deletegated_Authentication.png)
-
 ### **User Profile Mapping AD:** <br>
 ![User_Profile_Mapping_AD](screenshots/lab2/User_Profile_Mapping_AD.png)
+### **User Profile Mapping Okta:** <br>
+![User_Profile_Mapping_Okta](screenshots/lab2/User_Profile_Mapping_Okta.png)
 
 
 <p align="center">
