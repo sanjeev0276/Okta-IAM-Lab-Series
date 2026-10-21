@@ -19,7 +19,7 @@
 - [X] Lab 1: Tenant Setup - Completed Oct 19, 2026 
 - [X] Lab 2: AD Integration - Completed Oct 21, 2026
 - [X] Lab 3: RBAC - Completed Oct 21, 2026
-- [ ] Lab 4: SAML SSO - In Progress
+- [X] Lab 4: SAML SSO - Completed Oct 21, 2026
 - [ ] Lab 5: MFA / Adaptive - In Progress
 - [ ] Lab 6: JML Lifecycle - In Progress
 
@@ -84,6 +84,28 @@
 ## Lab 3 - Key Learnings
 - HR → AD → Okta lifecycle — In this lab, AD is authoritative for the configured user lifecycle. AD as single source of truth _Users/_Groups/_DisabledUsers
 - Detect sprawl via System Log application.user_membership.add direct assign John Smith → SCIM App. Alert on direct People assign bypassing groups
+ 
+### Lab 4 - Okta SAML 2.0 Application Integration <br>
+### **Lab 4 - Architecture Diagram:** <br>
+![Architecture_Diagram](screenshots/lab4/Architecture_Diagram.png) <br>
+### **Custom SAML App Creation:** <br>
+![Slack_SP_Shrestha_Technology_1](screenshots/lab4/Slack_SP_Shrestha_Technology_1.png)
+![Slack_SP_Shrestha_Technology_2](screenshots/lab4/Slack_SP_Shrestha_Technology_2.png)
+![Slack_SP_Shrestha_Technology_3](screenshots/lab4/Slack_SP_Shrestha_Technology_3.png)
+### **Group Based App Access** <br>
+![Group_Based_App_Access](screenshots/lab4/Group_Based_App_Access.png)
+### **Sarah Disabled AD:** <br>
+![Sarah_Disabled_AD](screenshots/lab4/Sarah_Disabled_AD.png)
+### **Sarah Deactivated Okta:** <br>
+![Sarah_Deactivated_Okta](screenshots/lab4/Sarah_Deactivated_Okta.png)
+### **Access Sprawl Investigation:** <br>
+![Access_Sprawl_Investigation](screenshots/lab4/Access_Sprawl_Investigation.png)
+### **Access Sprawl Report:** <br>
+![Access_Sprawl_Report](screenshots/lab4/Access_Sprawl_Report.png)
+
+## Lab 4 - Key Learnings
+- Group-based app access Finance→2 apps, HR+Cloud→3 apps. Assign Finance/IT/HR/Helpdesk/Cloud Engineer groups to Slack/Google Workspace/Sharepoint — never direct People
+- Least privilege matrix. John Smith (Finance) sees Slack+Sharepoint only — Lisa Park (HR+Cloud) sees all 3 — test in Incognito
 
 ## Original series (reference)
 <p align="center">
