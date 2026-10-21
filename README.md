@@ -45,7 +45,7 @@
 ### **Authenticator Enrollment Policy:** <br>
 ![Authenticator_Enrollment_Policy](screenshots/lab1/Authenticator_Enrollment_Policy.png)
 
-## Lab 1 - Key Learnings
+## Lab 1 - Key Learnings:
 - Learned how to set up a clean Okta tenant from scratch - Branding, People, Custom Profile Attributes, and how Global Session Policy is separate from Authentication Policies and Authenticator Enrollment Policy.
 - Learned to build the foundation right - People, Groups, and Group Rules first, so later RBAC and SAML apps just work with automated assignments instead of manual adds.
 
@@ -61,7 +61,7 @@
 ### **User Profile Mapping Okta:** <br>
 ![User_Profile_Mapping_Okta](screenshots/lab2/User_Profile_Mapping_Okta.png)
 
-## Lab 2 - Key Learnings
+## Lab 2 - Key Learnings:
 - AD is source of truth — _Users OU allenlab.local creates user, Okta never creates AD.
 - Incremental vs Full Import — Incremental = only changed objects, Full = all 4 users + 26 groups — Use Incremental for daily, Full for fixes
   
@@ -81,29 +81,31 @@
 ### **Access Sprawl Report:** <br>
 ![Access_Sprawl_Report](screenshots/lab3/Access_Sprawl_Report.png)
 
-## Lab 3 - Key Learnings
+## Lab 3 - Key Learnings:
 - HR → AD → Okta lifecycle — In this lab, AD is authoritative for the configured user lifecycle. AD as single source of truth _Users/_Groups/_DisabledUsers
 - Detect sprawl via System Log application.user_membership.add direct assign John Smith → SCIM App. Alert on direct People assign bypassing groups
  
 ### Lab 4 - Okta SAML 2.0 Application Integration <br>
 ### **Lab 4 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab4/Architecture_Diagram.png) <br>
-### **Custom SAML App Creation:** <br>
-![Slack_SP_Shrestha_Technology_1](screenshots/lab4/Slack_SP_Shrestha_Technology_1.png)
-![Slack_SP_Shrestha_Technology_2](screenshots/lab4/Slack_SP_Shrestha_Technology_2.png)
+### **Custom SAML App Creation 1:** <br>
+![Slack_SP_Shrestha_Technology_1](screenshots/lab4/Slack_SP_Shrestha_Technology_1.png) 
+## **Custom SAML App Creation 2:** <br>
+![Slack_SP_Shrestha_Technology_2](screenshots/lab4/Slack_SP_Shrestha_Technology_2.png) 
+## **Custom SAML App Creation 3:** <br>
 ![Slack_SP_Shrestha_Technology_3](screenshots/lab4/Slack_SP_Shrestha_Technology_3.png)
-### **Group Based App Access** <br>
-![Group_Based_App_Access](screenshots/lab4/Group_Based_App_Access.png)
-### **Sarah Disabled AD:** <br>
-![Sarah_Disabled_AD](screenshots/lab4/Sarah_Disabled_AD.png)
-### **Sarah Deactivated Okta:** <br>
-![Sarah_Deactivated_Okta](screenshots/lab4/Sarah_Deactivated_Okta.png)
-### **Access Sprawl Investigation:** <br>
-![Access_Sprawl_Investigation](screenshots/lab4/Access_Sprawl_Investigation.png)
-### **Access Sprawl Report:** <br>
-![Access_Sprawl_Report](screenshots/lab4/Access_Sprawl_Report.png)
+### **Group Based App Access:** <br>
+![Group_Based_App_Access](screenshots/lab4/Group_Based_App_Access_1.png)
+![Group_Based_App_Access](screenshots/lab4/Group_Based_App_Access_2.png)
+### **Multiple SP Configuration:** <br>
+![Multiple SP Configuration](screenshots/lab4/Multiple_SP_Configuration_1.png)
+![Multiple SP Configuration](screenshots/lab4/Multiple_SP_Configuration_2.png)
+### **Least privilege Access. John Smith (Finance) sees Slack and Sharepoint only:** <br>
+![John_App_Access](screenshots/lab4/John_App_Access.png)
+### **Least privilege Access. Lisa Park (HR+Cloud) sees all 3 Slack/Google Workspace/Sharepoint :** <br>
+![Lisa_App_Access](screenshots/lab4/Lisa_App_Access.png)
 
-## Lab 4 - Key Learnings
+## Lab 4 - Key Learnings:
 - Group-based app access Finance→2 apps, HR+Cloud→3 apps. Assign Finance/IT/HR/Helpdesk/Cloud Engineer groups to Slack/Google Workspace/Sharepoint — never direct People
 - Least privilege matrix. John Smith (Finance) sees Slack+Sharepoint only — Lisa Park (HR+Cloud) sees all 3 — test in Incognito
 
