@@ -1,7 +1,7 @@
 # Okta IAM Lab Series - My Hands-On Labs
 **By:** Sanjeev Shrestha | Dallas–Fort Worth Area, Texas, USA <br>
 **Okta Org** Integrator Free Plan at [developer.okta.com](https://developer.okta.com) <br>
-**My org:** <my-okta-org> admin.okta.com <br>
+**My org:** *.okta.com (redacted) <br>
 **Goal:** IAM Engineer/Developer roles - 2027 - Preparing for Okta Certified Professional (OCP) <br>
 **Original:** Forked from RyanKennon/Okta-Lab-Series
 
@@ -17,7 +17,7 @@
   
 ## My Progress
 - [x] Lab 1: Tenant Setup - Done Oct 19 2026 
-- [X] Lab 2: AD Integration - In Progress
+- [X] Lab 2: AD Integration - Done Oct 21, 2026
 - [ ] Lab 3: RBAC
 - [ ] Lab 4: SAML SSO
 - [ ] Lab 5: MFA / Adaptive
@@ -54,8 +54,8 @@
 ![Architecture_Diagram](screenshots/lab2/Architecture_Diagram.png) <br>
 ### **From AD To Okta:** <br>
 ![FromAD_To_Okta](screenshots/lab2/FromAD_To_Okta.png)
-### **Enabled Deletegated Authentication:** <br>
-![Enabled_Deletegated_Authentication](screenshots/lab2/Enabled_Deletegated_Authentication.png)
+### **Enabled Delegated Authentication:** <br>
+![Enabled_Delegated_Authentication](screenshots/lab2/Enabled_Delegated_Authentication.png)
 ### **User Profile Mapping AD:** <br>
 ![User_Profile_Mapping_AD](screenshots/lab2/User_Profile_Mapping_AD.png)
 ### **User Profile Mapping Okta:** <br>
