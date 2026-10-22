@@ -109,4 +109,4 @@
 - Group-based app access Finance→2 apps, HR+Cloud→3 apps. Assign Finance/IT/HR/Helpdesk/Cloud Engineer groups to Slack/Google Workspace/Sharepoint — never direct People
 - Least privilege matrix. John Smith (Finance) sees Slack+Sharepoint only — Lisa Park (HR+Cloud) sees all 3 — test in Incognito
 
-**Original:** Forked from [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series)
+**Original:** Forked from [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series) — Full original description in [REFERENCE.md](REFERENCE.md) 
