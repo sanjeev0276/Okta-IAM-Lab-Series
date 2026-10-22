@@ -78,7 +78,7 @@
 ![User_Profile_Mapping_Okta](screenshots/lab2/User_Profile_Mapping_Okta.png)
 
 ## Lab 2 - Key Learnings:
-- In this lab configuration, AD is authoritative for the configured user lifecycle. — _Users OU allenlab.local creates user, In this lab, AD is authoritative for the configured user lifecycle.
+- In this lab configuration, AD is authoritative for the configured user lifecycle. — _Users OU allenlab.local creates user
 - Incremental vs Full Import — Incremental = only changed objects, Full = all 4 users + 26 groups — Use Incremental for daily, Full for fixes
   
 **[↑ Back to Lab Evidence](#lab-evidence)**
