@@ -30,6 +30,7 @@
 - [x] Lab 4: SAML SSO - Completed Oct 21, 2026
 - [ ] Lab 5: MFA / Adaptive - In Progress
 - [ ] Lab 6: JML Lifecycle - In Progress
+
 <a id="lab-evidence"></a>
 ## Lab Evidence (screenshots from my org)
 **Jump to lab:**
@@ -79,7 +80,8 @@
 ## Lab 2 - Key Learnings:
 - In this lab configuration, AD is authoritative for the configured user lifecycle. — _Users OU allenlab.local creates user, In this lab, AD is authoritative for the configured user lifecycle.
 - Incremental vs Full Import — Incremental = only changed objects, Full = all 4 users + 26 groups — Use Incremental for daily, Full for fixes
-  **[↑ Back to Lab Evidence](#lab-evidence)**
+  
+**[↑ Back to Lab Evidence](#lab-evidence)**
   
 ### Lab 3 - Okta RBAC Design and Implementation 
 ### **Lab 3 - Architecture Diagram:** <br>
@@ -100,7 +102,8 @@
 ## Lab 3 - Key Learnings:
 - HR → AD → Okta lifecycle — In this lab, AD is authoritative for the configured user lifecycle. AD as single source of truth _Users/_Groups/_DisabledUsers
 - Detect sprawl via System Log application.user_membership.add direct assign John Smith → SCIM App. Investigate direct assignments for possible governance bypass; validate approved exceptions before remediation.
-  **[↑ Back to Lab Evidence](#lab-evidence)**
+  
+**[↑ Back to Lab Evidence](#lab-evidence)**
  
 ### Lab 4 - Okta SAML 2.0 Application Integration
 ### **Lab 4 - Architecture Diagram:** <br>
@@ -125,6 +128,7 @@
 ## Lab 4 - Key Learnings:
 - Group-based app access Finance→2 apps, HR+Cloud→3 apps. Assign Finance/IT/HR/Helpdesk/Cloud Engineer groups to Slack/Google Workspace/Sharepoint — never direct People
 - Least privilege matrix. John Smith (Finance) sees Slack+Sharepoint only — Lisa Park (HR+Cloud) sees all 3 — test in Incognito
-  **[↑ Back to Lab Evidence](#lab-evidence)**
+  
+**[↑ Back to Lab Evidence](#lab-evidence)**
 
 **Original:** Forked from [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series) — Full original description in [REFERENCE.md](REFERENCE.md) 
