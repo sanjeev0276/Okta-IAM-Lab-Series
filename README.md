@@ -62,7 +62,7 @@
 - Learned how to set up a clean Okta tenant from scratch - Branding, People, Custom Profile Attributes, and how Global Session Policy is separate from Authentication Policies and Authenticator Enrollment Policy.
 - Learned to build the foundation right - People, Groups, and Group Rules first, so later RBAC and SAML apps just work with automated assignments instead of manual adds.
 
-### Lab 2 - Okta Active Directory Integration <br>
+### Lab 2 - Okta Active Directory Integration 
 ### **Lab 2 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab2/Architecture_Diagram.png) <br>
 ### **From AD To Okta:** <br>
@@ -78,7 +78,7 @@
 - In this lab configuration, AD is authoritative for the configured user lifecycle. — _Users OU allenlab.local creates user, In this lab, AD is authoritative for the configured user lifecycle.
 - Incremental vs Full Import — Incremental = only changed objects, Full = all 4 users + 26 groups — Use Incremental for daily, Full for fixes
   
-### Lab 3 - Okta RBAC Design and Implementation <br>
+### Lab 3 - Okta RBAC Design and Implementation 
 ### **Lab 3 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab3/Architecture_Diagram.png) <br>
 ### **Okta Group Sync:** <br>
@@ -98,7 +98,7 @@
 - HR → AD → Okta lifecycle — In this lab, AD is authoritative for the configured user lifecycle. AD as single source of truth _Users/_Groups/_DisabledUsers
 - Detect sprawl via System Log application.user_membership.add direct assign John Smith → SCIM App. Investigate direct assignments for possible governance bypass; validate approved exceptions before remediation.
  
-### Lab 4 - Okta SAML 2.0 Application Integration <br>
+### Lab 4 - Okta SAML 2.0 Application Integration
 ### **Lab 4 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab4/Architecture_Diagram.png) <br>
 ### **Custom SAML App Creation 1:** <br>
