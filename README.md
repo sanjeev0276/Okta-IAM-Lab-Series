@@ -1,4 +1,5 @@
 # Okta IAM Lab Series - My Hands-On Labs
+![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png) <br>
 **By:** Sanjeev Shrestha | Dallas–Fort Worth Area, Texas, USA <br>
 **Okta Org** Integrator Free Plan at [developer.okta.com](https://developer.okta.com) <br>
 **My org:** *.okta.com (redacted) <br>
@@ -14,18 +15,30 @@
 * MFA Policies
 * Active Directory Integration
 * JML Automation
+
+## Business Problems Solved
+* Reduced manual app assignments using group-based access.
+* Implemented least privilege access model.
+* Demonstrated AD-to-Okta lifecycle automation.
+* Implemented SAML federation for centralized authentication.
+* Reduced access sprawl through RBAC design.
   
 ## My Progress
-- [X] Lab 1: Tenant Setup - Completed Oct 19, 2026 
-- [X] Lab 2: AD Integration - Completed Oct 21, 2026
-- [X] Lab 3: RBAC - Completed Oct 21, 2026
-- [X] Lab 4: SAML SSO - Completed Oct 21, 2026
+- [x] Lab 1: Tenant Setup - Completed Oct 19, 2026 
+- [x] Lab 2: AD Integration - Completed Oct 21, 2026
+- [x] Lab 3: RBAC - Completed Oct 21, 2026
+- [x] Lab 4: SAML SSO - Completed Oct 21, 2026
 - [ ] Lab 5: MFA / Adaptive - In Progress
 - [ ] Lab 6: JML Lifecycle - In Progress
 
 ## Lab Evidence (screenshots from my org)
+**Jump to lab:**
+- [Lab 1 – Tenant Setup](#lab-1---okta-tenant-setup--configuration)
+- [Lab 2 – AD Integration](#lab-2---okta-active-directory-integration)
+- [Lab 3 – RBAC](#lab-3---okta-rbac-design-and-implementation)
+- [Lab 4 – SAML SSO](#lab-4---okta-saml-20-application-integration)
+  
 ### Lab 1 - Okta Tenant Setup & Configuration
-![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png) <br>
 ### **Lab 1 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab1/Architecture_Diagram.png) <br>
 ### **Organization Contact:** <br>
@@ -62,7 +75,7 @@
 ![User_Profile_Mapping_Okta](screenshots/lab2/User_Profile_Mapping_Okta.png)
 
 ## Lab 2 - Key Learnings:
-- AD is source of truth — _Users OU allenlab.local creates user, Okta never creates AD.
+- In this lab configuration, AD is authoritative for the configured user lifecycle. — _Users OU allenlab.local creates user, In this lab, AD is authoritative for the configured user lifecycle.
 - Incremental vs Full Import — Incremental = only changed objects, Full = all 4 users + 26 groups — Use Incremental for daily, Full for fixes
   
 ### Lab 3 - Okta RBAC Design and Implementation <br>
@@ -83,16 +96,16 @@
 
 ## Lab 3 - Key Learnings:
 - HR → AD → Okta lifecycle — In this lab, AD is authoritative for the configured user lifecycle. AD as single source of truth _Users/_Groups/_DisabledUsers
-- Detect sprawl via System Log application.user_membership.add direct assign John Smith → SCIM App. Alert on direct People assign bypassing groups
+- Detect sprawl via System Log application.user_membership.add direct assign John Smith → SCIM App. Investigate direct assignments for possible governance bypass; validate approved exceptions before remediation.
  
 ### Lab 4 - Okta SAML 2.0 Application Integration <br>
 ### **Lab 4 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab4/Architecture_Diagram.png) <br>
 ### **Custom SAML App Creation 1:** <br>
 ![Slack_SP_Shrestha_Technology_1](screenshots/lab4/Slack_SP_Shrestha_Technology_1.png) 
-## **Custom SAML App Creation 2:** <br>
+### **Custom SAML App Creation 2:** <br>
 ![Slack_SP_Shrestha_Technology_2](screenshots/lab4/Slack_SP_Shrestha_Technology_2.png) 
-## **Custom SAML App Creation 3:** <br>
+### **Custom SAML App Creation 3:** <br>
 ![Slack_SP_Shrestha_Technology_3](screenshots/lab4/Slack_SP_Shrestha_Technology_3.png)
 ### **Group Based App Access:** <br>
 ![Group_Based_App_Access](screenshots/lab4/Group_Based_App_Access_1.png)
