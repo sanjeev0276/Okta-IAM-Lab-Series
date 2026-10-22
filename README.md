@@ -61,6 +61,7 @@
 ## Lab 1 - Key Learnings:
 - Learned how to set up a clean Okta tenant from scratch - Branding, People, Custom Profile Attributes, and how Global Session Policy is separate from Authentication Policies and Authenticator Enrollment Policy.
 - Learned to build the foundation right - People, Groups, and Group Rules first, so later RBAC and SAML apps just work with automated assignments instead of manual adds.
+
 **[↑ Back to Lab Evidence](#lab-evidence)**
   
 ### Lab 2 - Okta Active Directory Integration 
