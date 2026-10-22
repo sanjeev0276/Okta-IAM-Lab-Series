@@ -30,7 +30,7 @@
 - [x] Lab 4: SAML SSO - Completed Oct 21, 2026
 - [ ] Lab 5: MFA / Adaptive - In Progress
 - [ ] Lab 6: JML Lifecycle - In Progress
-
+<a id="lab-evidence"></a>
 ## Lab Evidence (screenshots from my org)
 **Jump to lab:**
 - [Lab 1 – Tenant Setup](#lab-1---okta-tenant-setup--configuration)
@@ -61,7 +61,8 @@
 ## Lab 1 - Key Learnings:
 - Learned how to set up a clean Okta tenant from scratch - Branding, People, Custom Profile Attributes, and how Global Session Policy is separate from Authentication Policies and Authenticator Enrollment Policy.
 - Learned to build the foundation right - People, Groups, and Group Rules first, so later RBAC and SAML apps just work with automated assignments instead of manual adds.
-
+**[↑ Back to Lab Evidence](#lab-evidence)**
+  
 ### Lab 2 - Okta Active Directory Integration 
 ### **Lab 2 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab2/Architecture_Diagram.png) <br>
