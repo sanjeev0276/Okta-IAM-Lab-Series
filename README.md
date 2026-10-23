@@ -172,7 +172,7 @@
 ### **John Smith Password:** <br>
 ![John_Smith_Password](screenshots/lab5/John_Smith_Password.png)
 ### **John Smith Access:** <br>
-![John_Smith_Access](screenshots/lab5/John_Smith_Password.png)
+![John_Smith_Access](screenshots/lab5/John_Smith_Access.png)
 ### **AuthenticatorEnrollment Policy:** <br>
 ![Authenticator_Enrollment_Policy](screenshots/lab5/Authenticator_Enrollment_Policy.png)
 ### **Jane Doe Username:** <br>
