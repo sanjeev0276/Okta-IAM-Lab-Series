@@ -143,22 +143,44 @@
 ### Lab 5 - Okta MFA and Adaptive Authentication
 ### **Lab 5 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab5/Architecture_Diagram.png) <br>
-### **Custom SAML App Creation 1:** <br>
-![Slack_SP_Shrestha_Technology_1](screenshots/lab5/Slack_SP_Shrestha_Technology_1.png) 
-### **Custom SAML App Creation 2:** <br>
-![Slack_SP_Shrestha_Technology_2](screenshots/lab5/Slack_SP_Shrestha_Technology_2.png) 
-### **Custom SAML App Creation 3:** <br>
-![Slack_SP_Shrestha_Technology_3](screenshots/lab5/Slack_SP_Shrestha_Technology_3.png)
-### **Group Based App Access:** <br>
-![Group_Based_App_Access](screenshots/lab5/Group_Based_App_Access_1.png)
-![Group_Based_App_Access](screenshots/lab5/Group_Based_App_Access_2.png)
-### **Multiple SP Configuration:** <br>
-![Multiple SP Configuration](screenshots/lab5/Multiple_SP_Configuration_1.png)
-![Multiple SP Configuration](screenshots/lab5/Multiple_SP_Configuration_2.png)
-### **Least privilege Access. John Smith (Finance) sees Slack and Sharepoint only:** <br>
-![John_App_Access](screenshots/lab5/John_App_Access.png)
-### **Least privilege Access. Lisa Park (HR+Cloud) sees all 3 Slack/Google Workspace/Sharepoint :** <br>
-![Lisa_App_Access](screenshots/lab5/Lisa_App_Access.png)
+### **1) Enroll Okta Verify:** <br>
+![Enroll_Okta_Verify](screenshots/lab5/Enroll_Okta_Verify.png) 
+### **Passwordless Enrollment 1:** <br>
+![Passwordless_Enrollment_1](screenshots/lab5/Passwordless_Enrollment_1.png) 
+### **Passwordless Enrollment 2:** <br>
+![Passwordless_Enrollment_2](screenshots/lab5/Passwordless_Enrollment_2.png) 
+### **Passwordless Enrollment 3:** <br>
+![Passwordless_Enrollment_3](screenshots/lab5/Passwordless_Enrollment_3.png) 
+### **Passwordless Enrollment 4:** <br>
+![Passwordless_Enrollment_4](screenshots/lab5/Passwordless_Enrollment_4.png) 
+### **Passwordless Enrollment 5:** <br>
+![Passwordless_Enrollment_5](screenshots/lab5/Passwordless_Enrollment_5.png) 
+### **Network Zones:** <br>
+![Network_Zones](screenshots/lab5/Network_Zones.png)
+### **Risk Based Adaptive MFA Policy OutsideNetwork:** <br>
+![Risk_Based_Adaptive_MFA_Policy_OutsideNetwork](screenshots/lab5/Risk_Based_Adaptive_MFA_Policy_OutsideNetwork.png)
+### **Risk Based Adaptive MFA Policy Corporate:** <br>
+![Risk_Based_Adaptive_MFA_Policy_Corporate](screenshots/lab5/Risk_Based_Adaptive_MFA_Policy_Corporate.png)
+### **Step Up Authentication 1:** <br>
+![Step_Up_Authentication_Policy](screenshots/lab5/Step_Up_Authentication_Policy.png)
+### **Step Up Authentication 2:** <br>
+![Step_Up_Authentication_Rule](screenshots/lab5/Step_Up_Authentication_Rule.png)
+### **Step Up Authentication 3:** <br>
+![Step_Up_Authentication_High_Assurance_Policy](screenshots/lab5/Step_Up_Authentication_High_Assurance_Policy.png)
+### **John Smith Username:** <br>
+![John_Smith_Username](screenshots/lab5/John_Smith_Username.png)
+### **John Smith Password:** <br>
+![John_Smith_Password](screenshots/lab5/John_Smith_Password.png)
+### **John Smith Access:** <br>
+![John_Smith_Access](screenshots/lab5/John_Smith_Password.png)
+### **AuthenticatorEnrollment Policy:** <br>
+![Authenticator_Enrollment_Policy](screenshots/lab5/Authenticator_Enrollment_Policy.png)
+### **Jane Doe Username:** <br>
+![Jane_Doe_Username](screenshots/lab5/Jane_Doe_Username.png)
+### **Jane Doe Password:** <br>
+![Jane_Doe_Password](screenshots/lab5/Jane_Doe_Password.png)
+### **Jane Doe Access:** <br>
+![Jane_Doe_Access](screenshots/lab5/Jane_Doe_Access.png)
 
 ## Lab 5 - Key Learnings:
 - Step-up authentication for sensitive apps. Sharepoint Finance/HR sensitive — Requires MFA re-challenge even if session valid — Lab 5 step-up for sensitive applications — Prevents session hijack after initial login
