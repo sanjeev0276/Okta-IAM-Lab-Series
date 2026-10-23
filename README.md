@@ -226,24 +226,29 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](screenshots/lab5/Architecture_Diagram.png)
+![Architecture Diagram](screenshots/lab6/Architecture_Diagram.png)
 
-#### MFA & Policy Verification
-* **Authenticator Enrollment & Passwordless Setup:**  
-  ![Enroll Okta Verify](screenshots/lab5/Enroll_Okta_Verify.png)  
-  ![Passwordless Enrollment](screenshots/lab5/Passwordless_Enrollment_1.png)
-* **Network Zones & Adaptive Rules:**  
-  ![Network Zones](screenshots/lab5/Network_Zones.png)  
-  ![Adaptive Policy Outside Network](screenshots/lab5/Risk_Based_Adaptive_MFA_Policy_OutsideNetwork.png)  
-  ![Adaptive Policy Corporate Network](screenshots/lab5/Risk_Based_Adaptive_MFA_Policy_Corporate.png)
-* **Step-Up Authentication Engine:**  
-  ![Step Up Policy](screenshots/lab5/Step_Up_Authentication_Policy.png)  
-  ![Step Up Rule](screenshots/lab5/Step_Up_Authentication_Rule.png)  
-  ![Step Up High Assurance](screenshots/lab5/Step_Up_Authentication_High_Assurance_Policy.png)
-* **User Authentication Testing:**  
-  ![John Smith Access](screenshots/lab5/John_Smith_Access.png)  
-  ![Jane Doe Access](screenshots/lab5/Jane_Doe_Access.png)
-
+#### Joiner Mover Leaver Lifecycle
+* **Joiner Onboarding Script:**  
+  ![Joiner_Onboarding_Script](screenshots/lab6/Joiner_Onboarding_Script.png)    
+* **IT Confirmation:**  
+  ![IT_Confirmation(screenshots/lab6/IT_Confirmation.png)  
+* **Mover Script:**  
+  ![Mover_Script](screenshots/lab6/Mover_Script.png)    
+* **Finance Confirmation:**  
+  ![Finance_Confirmation](screenshots/lab6/Finance_Confirmation.png)
+* **Leaver Script:**  
+  ![Leaver_Script](screenshots/lab6/Leaver_Script.png)
+* **Deactivation Confirmation:**  
+  ![Deactivation_Confirmation](screenshots/lab6/Deactivation_Confirmation.png)
+* **CSV Driven Batch Processing:**  
+  ![CSV_Driven_Batch_Processing](screenshots/lab6/CSV_Driven_Batch_Processing.png)
+* **Activated Deactivated Confirmation:** 
+  ![Activated_Deactivated_Confirmation](screenshots/lab6/Activated_Deactivated_Confirmation.png)
+* **HR Group Confirmation:** 
+  ![HR_Group_Confirmation](screenshots/lab6/HR_Group_Confirmation.png)
+* **Finance Group Confirmation:** 
+  ![Finance_Group_Confirmation](screenshots/lab6/Finance_Group_Confirmation.png)
 </details>
 
 ---
