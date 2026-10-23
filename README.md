@@ -1,10 +1,12 @@
 # Okta IAM Lab Series - My Hands-On Labs
-![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png) 
-**By:** Sanjeev Shrestha | Dallas–Fort Worth Area, Texas, USA 
-**Okta Org** Integrator Free Plan at [developer.okta.com](https://developer.okta.com) 
-**My org:** *.okta.com (redacted) 
-**Goal:** IAM Engineer/Developer roles - 2027 - Preparing for Okta Certified Professional (OCP) 
+![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png)
+
+**By:** Sanjeev Shrestha | Dallas–Fort Worth Area, Texas, USA  
+**Okta Org:** Integrator Free Plan at [developer.okta.com](https://developer.okta.com)  
+**My org:** *.okta.com (redacted)  
+**Goal:** IAM Engineer/Developer roles - 2027 - Preparing for Okta Certified Professional (OCP)  
 **Original:** Forked from RyanKennon/Okta-Lab-Series
+
 
 ## Skills Demonstrated
 * Okta Administration
