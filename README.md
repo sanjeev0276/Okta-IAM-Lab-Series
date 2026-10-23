@@ -3,7 +3,6 @@
 **Target Roles:** IAM Engineer / IAM Developer (2027)  
 **Certification Focus:** Preparing for Okta Certified Professional (OCP)  
 **Environment:** Okta Developer Tenant (*.okta.com - redacted)  
-**Original Reference:** Adapted from [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series) (See [REFERENCE.md](REFERENCE.md))
 
 ---
 
