@@ -114,6 +114,7 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 </details>
 
 ---
+**[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ### Lab 3: RBAC Design & Access Sprawl Investigation
 
@@ -145,6 +146,7 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 </details>
 
 ---
+**[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ### Lab 4: SAML 2.0 Application Integration
 
@@ -177,6 +179,7 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 </details>
 
 ---
+**[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ### Lab 5: Adaptive MFA, Step-Up Authentication & Zero Trust
 
@@ -211,6 +214,7 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 </details>
 
 ---
+**[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ### Lab 6 - Okta JML Lifecycle Automation
 
@@ -250,6 +254,8 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 * **Finance Group Confirmation:** 
   ![Finance_Group_Confirmation](screenshots/lab6/Finance_Group_Confirmation.png)
 </details>
+----
+**[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ---
 
