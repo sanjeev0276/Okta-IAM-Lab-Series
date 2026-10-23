@@ -223,6 +223,12 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 * Syncs AD changes to *.okta.com via Okta AD Agent Okta Active Directory Service with Full / Incremental Import
 * Includes individual scripts for onboarding (Joiner New-ADUser + Add-ADGroupMember), role changes (Mover Remove old group + Add new group + Set-ADUser Dept/Title), offboarding (Leaver Disable-ADAccount + Move to _DisabledUsers + strip groups)
 * Plus CSV-driven batch script jml-batch.csv with headers Action,SamAccountName,Group,Email that processes multiple lifecycle events in single run: Joiner mikechen HR, Mover bobjohnson Finance, Leaver lisapark Deactivated
+#### 📂 Code & Automation Artifacts (Direct Inspect)
+* **Joiner Script:** [`scripts/Joiner.ps1`](scripts/Joiner.ps1) - Onboarding: New-ADUser + Group Add
+* **Mover Script:** [`scripts/Mover.ps1`](scripts/Mover.ps1) - Role Change: Remove old / Add new Group + Dept/Title update
+* **Leaver Script:** [`scripts/Leaver.ps1`](scripts/Leaver.ps1) - Offboarding: Disable + Move to _DisabledUsers + Strip Groups
+* **CSV Batch:** [`scripts/jml-batch.csv`](scripts/jml-batch.csv) - Bulk JML: Joiner/Mover/Leaver in single run
+* **Batch Runner:** [`scripts/JML-Batch.ps1`](scripts/JML-Batch.ps1) - Import-Csv loop with validation
 
 <details>
 <summary>📸 <b>Click to view Lab 6 Diagrams & Screenshots</b></summary>
