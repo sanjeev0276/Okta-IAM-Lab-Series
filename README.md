@@ -3,12 +3,14 @@
 ![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png)
 
 **Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX  
-**Target Roles:** IAM Engineer / Identity Security Developer (2027)  
+**Target Roles:** IAM Engineer / IAM Developer (2027)  
 **Certification Focus:** Preparing for Okta Certified Professional (OCP)  
 **Environment:** Okta Developer Tenant (*.okta.com - redacted)  
 **Original Reference:** Adapted from [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series) (See [REFERENCE.md](REFERENCE.md))
 
 ---
+## Architecture Overview
+HR System ↓ Active Directory ↓ Okta Universal Directory ↓ Groups (RBAC) ↓ Enterprise Applications (Slack, Google Workspace, SharePoint)
 
 ## Executive Summary & Business Impact
 
@@ -45,6 +47,7 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 | **Lab 6** | Advanced JML Lifecycle Automation | In Progress | — |
 
 ---
+
 
 ## Detailed Lab Implementations & Visual Proof
 
