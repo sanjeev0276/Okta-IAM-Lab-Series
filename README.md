@@ -44,7 +44,7 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 | **Lab 3** | RBAC Design & Access Sprawl Investigation | Completed | Oct 21, 2026 |
 | **Lab 4** | SAML 2.0 SSO Application Integration | Completed | Oct 21, 2026 |
 | **Lab 5** | MFA, Adaptive Authentication & Step-Up | Completed | Oct 22, 2026 |
-| **Lab 6** | Advanced JML Lifecycle Automation | In Progress | — |
+| **Lab 6** | Advanced JML Lifecycle Automation | Completed | Oct 23, 2026 |
 
 ---
 
@@ -186,6 +186,42 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 
 <details>
 <summary>📸 <b>Click to view Lab 5 Diagrams & Screenshots</b></summary>
+
+<br>
+
+#### Architecture Diagram
+![Architecture Diagram](screenshots/lab5/Architecture_Diagram.png)
+
+#### MFA & Policy Verification
+* **Authenticator Enrollment & Passwordless Setup:**  
+  ![Enroll Okta Verify](screenshots/lab5/Enroll_Okta_Verify.png)  
+  ![Passwordless Enrollment](screenshots/lab5/Passwordless_Enrollment_1.png)
+* **Network Zones & Adaptive Rules:**  
+  ![Network Zones](screenshots/lab5/Network_Zones.png)  
+  ![Adaptive Policy Outside Network](screenshots/lab5/Risk_Based_Adaptive_MFA_Policy_OutsideNetwork.png)  
+  ![Adaptive Policy Corporate Network](screenshots/lab5/Risk_Based_Adaptive_MFA_Policy_Corporate.png)
+* **Step-Up Authentication Engine:**  
+  ![Step Up Policy](screenshots/lab5/Step_Up_Authentication_Policy.png)  
+  ![Step Up Rule](screenshots/lab5/Step_Up_Authentication_Rule.png)  
+  ![Step Up High Assurance](screenshots/lab5/Step_Up_Authentication_High_Assurance_Policy.png)
+* **User Authentication Testing:**  
+  ![John Smith Access](screenshots/lab5/John_Smith_Access.png)  
+  ![Jane Doe Access](screenshots/lab5/Jane_Doe_Access.png)
+
+</details>
+
+---
+
+### Lab 6 - Okta JML Lifecycle Automation
+
+**Key Learnings & Takeaways:**
+* Automates Joiner, Mover, Leaver lifecycle using PowerShell scripts against Active Directory allenlab.local
+* Syncs AD changes to Okta integrator-***** via Okta AD Agent Okta Active Directory Service with Full / Incremental Import
+* Includes individual scripts for onboarding (Joiner New-ADUser + Add-ADGroupMember), role changes (Mover Remove old group + Add new group + Set-ADUser Dept/Title), offboarding (Leaver Disable-ADAccount + Move to _DisabledUsers + strip groups)
+* Plus CSV-driven batch script jml-batch.csv with headers Action,SamAccountName,Group,Email that processes multiple lifecycle events in single run: Joiner mikechen HR, Mover bobjohnson Finance, Leaver lisapark Deactivated
+
+<details>
+<summary>📸 <b>Click to view Lab 6 Diagrams & Screenshots</b></summary>
 
 <br>
 
