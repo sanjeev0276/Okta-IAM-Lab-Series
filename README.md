@@ -1,16 +1,15 @@
 # Okta IAM Lab Series - Hands-On Architecture & Implementation
-
-![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png)
-
-**Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX  
+**Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies) <br>
 **Target Roles:** IAM Engineer / IAM Developer (2027)  
 **Certification Focus:** Preparing for Okta Certified Professional (OCP)  
 **Environment:** Okta Developer Tenant (*.okta.com - redacted)  
 **Original Reference:** Adapted from [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series) (See [REFERENCE.md](REFERENCE.md))
 
 ---
+
 ## Architecture Overview
-HR System ↓ Active Directory ↓ Okta Universal Directory ↓ Groups (RBAC) ↓ Enterprise Applications (Slack, Google Workspace, SharePoint)
+HR System → AD `allenlab.local` → Okta `*.okta.com - redacted` → RBAC Groups → Apps (Slack, Workspace, SharePoint) → Adaptive MFA / Zero Trust → JML Automation
+ ![Architecture_Overview](screenshots/Architecture_Overview.png)
 
 ## Executive Summary & Business Impact
 
