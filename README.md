@@ -232,7 +232,7 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 * **Joiner Onboarding Script:**  
   ![Joiner_Onboarding_Script](screenshots/lab6/Joiner_Onboarding_Script.png)    
 * **IT Confirmation:**  
-  ![IT_Confirmation(screenshots/lab6/IT_Confirmation.png)  
+  ![IT_Confirmation](screenshots/lab6/IT_Confirmation.png)  
 * **Mover Script:**  
   ![Mover_Script](screenshots/lab6/Mover_Script.png)    
 * **Finance Confirmation:**  
