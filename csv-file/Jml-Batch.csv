@@ -1,1 +1,4 @@
-
+Action,SamAccountName,FirstName,LastName,Department,Title,Group,Email
+Joiner,mikechen,Mike,Chen,Human Resources,HR Specialist,Human Resources,user1@example.com
+Mover,bobjohnson,Bob,Johnson,Finance,Financial Analyst,Finance,user2@example.com
+Leaver,lisapark,Lisa,Park,NA,NA,NA,user3@example.com
