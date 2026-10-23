@@ -22,13 +22,16 @@
 * Demonstrated AD-to-Okta lifecycle automation.
 * Implemented SAML federation for centralized authentication.
 * Reduced access sprawl through RBAC design.
+* Prevented credential theft and push fatigue using Okta Verify Push with Number Matching and TOTP fallback.
+* Enforced adaptive risk-based access using sign-on policies and network zone-based access rules.
+* Secured sensitive applications with step-up authentication and authenticator enrollment policies, enabling passwordless.
   
 ## My Progress
 - [x] Lab 1: Tenant Setup - Completed Oct 19, 2026 
 - [x] Lab 2: AD Integration - Completed Oct 21, 2026
 - [x] Lab 3: RBAC - Completed Oct 21, 2026
 - [x] Lab 4: SAML SSO - Completed Oct 21, 2026
-- [ ] Lab 5: MFA / Adaptive - In Progress
+- [x] Lab 5: MFA / Adaptive - Completed Oct 22, 2026
 - [ ] Lab 6: JML Lifecycle - In Progress
 
 <a id="lab-evidence"></a>
@@ -38,7 +41,9 @@
 - [Lab 2 – AD Integration](#lab-2---okta-active-directory-integration)
 - [Lab 3 – RBAC](#lab-3---okta-rbac-design-and-implementation)
 - [Lab 4 – SAML SSO](#lab-4---okta-saml-20-application-integration)
+- [Lab 5 – MFA / Adaptive](#lab-5---okta-mfa-and-adaptive-authentication)
   
+<a id="lab-1---okta-tenant-setup--configuration"></a>
 ### Lab 1 - Okta Tenant Setup & Configuration
 ### **Lab 1 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab1/Architecture_Diagram.png) <br>
@@ -65,6 +70,7 @@
 
 **[↑ Back to Lab Evidence](#lab-evidence)**
   
+<a id="lab-2---okta-active-directory-integration"></a>
 ### Lab 2 - Okta Active Directory Integration 
 ### **Lab 2 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab2/Architecture_Diagram.png) <br>
@@ -83,7 +89,8 @@
   
 **[↑ Back to Lab Evidence](#lab-evidence)**
   
-### Lab 3 - Okta RBAC Design and Implementation 
+<a id="lab-3---okta-rbac-design-and-implementation"></a>
+### Lab 3 - Okta RBAC Design and Implementation  
 ### **Lab 3 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab3/Architecture_Diagram.png) <br>
 ### **Okta Group Sync:** <br>
@@ -105,6 +112,7 @@
   
 **[↑ Back to Lab Evidence](#lab-evidence)**
  
+<a id="lab-4---okta-saml-20-application-integration"></a>
 ### Lab 4 - Okta SAML 2.0 Application Integration
 ### **Lab 4 - Architecture Diagram:** <br>
 ![Architecture_Diagram](screenshots/lab4/Architecture_Diagram.png) <br>
@@ -128,6 +136,33 @@
 ## Lab 4 - Key Learnings:
 - Group-based app access Finance→2 apps, HR+Cloud→3 apps. Assign Finance/IT/HR/Helpdesk/Cloud Engineer groups to Slack/Google Workspace/Sharepoint — never direct People
 - Least privilege matrix. John Smith (Finance) sees Slack+Sharepoint only — Lisa Park (HR+Cloud) sees all 3 — test in Incognito
+  
+**[↑ Back to Lab Evidence](#lab-evidence)**
+
+<a id="lab-5---okta-mfa-and-adaptive-authentication"></a>
+### Lab 5 - Okta MFA and Adaptive Authentication
+### **Lab 5 - Architecture Diagram:** <br>
+![Architecture_Diagram](screenshots/lab5/Architecture_Diagram.png) <br>
+### **Custom SAML App Creation 1:** <br>
+![Slack_SP_Shrestha_Technology_1](screenshots/lab5/Slack_SP_Shrestha_Technology_1.png) 
+### **Custom SAML App Creation 2:** <br>
+![Slack_SP_Shrestha_Technology_2](screenshots/lab5/Slack_SP_Shrestha_Technology_2.png) 
+### **Custom SAML App Creation 3:** <br>
+![Slack_SP_Shrestha_Technology_3](screenshots/lab5/Slack_SP_Shrestha_Technology_3.png)
+### **Group Based App Access:** <br>
+![Group_Based_App_Access](screenshots/lab5/Group_Based_App_Access_1.png)
+![Group_Based_App_Access](screenshots/lab5/Group_Based_App_Access_2.png)
+### **Multiple SP Configuration:** <br>
+![Multiple SP Configuration](screenshots/lab5/Multiple_SP_Configuration_1.png)
+![Multiple SP Configuration](screenshots/lab5/Multiple_SP_Configuration_2.png)
+### **Least privilege Access. John Smith (Finance) sees Slack and Sharepoint only:** <br>
+![John_App_Access](screenshots/lab5/John_App_Access.png)
+### **Least privilege Access. Lisa Park (HR+Cloud) sees all 3 Slack/Google Workspace/Sharepoint :** <br>
+![Lisa_App_Access](screenshots/lab5/Lisa_App_Access.png)
+
+## Lab 5 - Key Learnings:
+- Step-up authentication for sensitive apps. Sharepoint Finance/HR sensitive — Requires MFA re-challenge even if session valid — Lab 5 step-up for sensitive applications — Prevents session hijack after initial login
+- Network Zone-based access rules define trusted vs untrusted IPs. Create Security → Networks → Zones — Define Dallas Trusted Zone = [REDACTED_IP] range / Corp IPs — Allow vs Block — Sign-on Policy: If inside Dallas zone → MFA optional, Outside → MFA required + Deny — Without zone, user can login from any country — Need zone for real production environment in Dallas
   
 **[↑ Back to Lab Evidence](#lab-evidence)**
 
