@@ -220,7 +220,7 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 
 **Key Learnings & Takeaways:**
 * Automates Joiner, Mover, Leaver lifecycle using PowerShell scripts against Active Directory allenlab.local
-* Syncs AD changes to Okta integrator-***** via Okta AD Agent Okta Active Directory Service with Full / Incremental Import
+* Syncs AD changes to *.okta.com via Okta AD Agent Okta Active Directory Service with Full / Incremental Import
 * Includes individual scripts for onboarding (Joiner New-ADUser + Add-ADGroupMember), role changes (Mover Remove old group + Add new group + Set-ADUser Dept/Title), offboarding (Leaver Disable-ADAccount + Move to _DisabledUsers + strip groups)
 * Plus CSV-driven batch script jml-batch.csv with headers Action,SamAccountName,Group,Email that processes multiple lifecycle events in single run: Joiner mikechen HR, Mover bobjohnson Finance, Leaver lisapark Deactivated
 
