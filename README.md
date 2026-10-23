@@ -227,7 +227,7 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 * **Joiner Script:** [`scripts/Joiner.ps1`](scripts/Joiner.ps1) - Onboarding: New-ADUser + Group Add
 * **Mover Script:** [`scripts/Mover.ps1`](scripts/Mover.ps1) - Role Change: Remove old / Add new Group + Dept/Title update
 * **Leaver Script:** [`scripts/Leaver.ps1`](scripts/Leaver.ps1) - Offboarding: Disable + Move to _DisabledUsers + Strip Groups
-* **CSV Batch:** [`scripts/jml-batch.csv`](csv file/Jml-Batch.csv) - Bulk JML: Joiner/Mover/Leaver in single run
+* **CSV Batch:** [`csv-file/Jml-Batch.csv`](csv-file/Jml-Batch.csv) - Bulk JML: Joiner/Mover/Leaver in single run
 * **Batch Runner:** [`scripts/JML-Batch.ps1`](scripts/JML-Batch.ps1) - Import-Csv loop with validation
 
 <details>
