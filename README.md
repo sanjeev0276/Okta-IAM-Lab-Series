@@ -254,8 +254,12 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 * **Finance Group Confirmation:** 
   ![Finance_Group_Confirmation](screenshots/lab6/Finance_Group_Confirmation.png)
 </details>
+
 ---
+
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
+
 ---
+
 ## Original Repository & Credits
 This hands-on lab series was adapted and built upon the foundational framework provided by [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series). Full original references can be found in [REFERENCE.md](REFERENCE.md).
