@@ -34,17 +34,16 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 * User Lifecycle Management (JML) & Access Sprawl Audit
 
 ---
-
 ## Lab Execution Status
 
 | Lab Phase | Focus Area | Status | Completion Date |
 | :--- | :--- | :---: | :---: |
-| **Lab 1** | Tenant Setup & Core Identity Foundation | Completed | Oct 19, 2026 |
-| **Lab 2** | Active Directory Integration & DelAuth | Completed | Oct 21, 2026 |
-| **Lab 3** | RBAC Design & Access Sprawl Investigation | Completed | Oct 21, 2026 |
-| **Lab 4** | SAML 2.0 SSO Application Integration | Completed | Oct 21, 2026 |
-| **Lab 5** | MFA, Adaptive Authentication & Step-Up | Completed | Oct 22, 2026 |
-| **Lab 6** | Advanced JML Lifecycle Automation | Completed | Oct 23, 2026 |
+| **Lab 1** | [Tenant Setup & Core Identity Foundation](#lab-1-okta-tenant-setup--configuration) | Completed | Oct 19, 2026 |
+| **Lab 2** | [Active Directory Integration & DelAuth](#lab-2-active-directory-integration--delegated-authentication) | Completed | Oct 21, 2026 |
+| **Lab 3** | [RBAC Design & Access Sprawl Investigation](#lab-3-rbac-design--access-sprawl-investigation) | Completed | Oct 21, 2026 |
+| **Lab 4** | [SAML 2.0 SSO Application Integration](#lab-4-saml-20-application-integration) | Completed | Oct 21, 2026 |
+| **Lab 5** | [MFA, Adaptive Authentication & Step-Up](#lab-5-adaptive-mfa-step-up-authentication--zero-trust) | Completed | Oct 22, 2026 |
+| **Lab 6** | [Advanced JML Lifecycle Automation](#lab-6---okta-jml-lifecycle-automation) | Completed | Oct 23, 2026 |
 
 ---
 
