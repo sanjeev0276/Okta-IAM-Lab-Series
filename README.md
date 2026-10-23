@@ -83,7 +83,7 @@ This repository documents hands-on enterprise Identity and Access Management (IA
   ![Authenticator Enrollment Policy](screenshots/lab1/Authenticator_Enrollment_Policy.png)
 
 </details>
-**[↑ Back to Lab Execution Status](#lab-execution-status)**
+
 ---
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
