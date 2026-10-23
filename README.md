@@ -12,12 +12,13 @@ HR System → AD `allenlab.local` → Okta `*.okta.com - redacted` → RBAC Grou
 
 ## Executive Summary & Business Impact
 
-This repository documents hands-on enterprise Identity and Access Management (IAM) configurations using Okta, Active Directory, SAML 2.0, and Adaptive Risk-Based Multi-Factor Authentication (MFA).
+Enterprise IAM across 6 labs using Okta, AD, SAML 2.0, and Adaptive MFA.
 
-* **Access Governance & Least Privilege:** Demonstrated group-based provisioning and access-sprawl detection in a lab environment by establishing role-based access control (RBAC) and group-based access rules.
-* **Lifecycle Automation:** Configured Active Directory as an authoritative source to demonstrate automated Joiner-Mover-Leaver (JML) workflows.
-* **Centralized Authentication:** Implemented SAML 2.0 federation across enterprise service providers (Slack, Google Workspace, SharePoint).
-* **Zero Trust & Adaptive Security:** Enforced network-zone sign-on policies, step-up MFA for sensitive resources, and passwordless authentication using Okta Verify Push with Number Matching to mitigate credential theft and push fatigue.
+* **Tenant Foundation (Lab 1):** Core Okta tenant `*.okta.com - redacted`, custom profile attributes, Groups RBAC, Global Session + Auth + Enrollment Policies.
+* **Access Governance (Lab 3+4):** Group-based provisioning, access-sprawl audit via System Log `application.user_membership.add`, least-privilege via group app assignments for Slack, Workspace, SharePoint.
+* **Lifecycle Automation (Lab 2+6):** AD `allenlab.local` as source with DelAuth + Full/Incremental Import via AD Agent, JML automation with PowerShell + CSV batch `jml-batch.csv`, Unassigned → Confirm → Active/Deactivated.
+* **Centralized Auth (Lab 4):** SAML 2.0 federation with attribute mapping across Slack, Google Workspace, SharePoint.
+* **Zero Trust (Lab 5):** Network Zones Trusted/Untrusted IP, Adaptive Sign-On + Step-Up High Assurance for SharePoint, Passwordless Okta Verify Push with Number Matching.
 
 ---
 
