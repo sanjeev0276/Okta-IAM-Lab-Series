@@ -254,7 +254,7 @@ This repository documents hands-on enterprise Identity and Access Management (IA
 * **Finance Group Confirmation:** 
   ![Finance_Group_Confirmation](screenshots/lab6/Finance_Group_Confirmation.png)
 </details>
-----
+---
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ---
