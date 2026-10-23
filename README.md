@@ -1,9 +1,9 @@
 # Okta IAM Lab Series - My Hands-On Labs
-![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png) <br>
-**By:** Sanjeev Shrestha | Dallas–Fort Worth Area, Texas, USA <br>
-**Okta Org** Integrator Free Plan at [developer.okta.com](https://developer.okta.com) <br>
-**My org:** *.okta.com (redacted) <br>
-**Goal:** IAM Engineer/Developer roles - 2027 - Preparing for Okta Certified Professional (OCP) <br>
+![Shrestha Technologies](screenshots/lab1/Shrestha_Technologies.png) 
+**By:** Sanjeev Shrestha | Dallas–Fort Worth Area, Texas, USA 
+**Okta Org** Integrator Free Plan at [developer.okta.com](https://developer.okta.com) 
+**My org:** *.okta.com (redacted) 
+**Goal:** IAM Engineer/Developer roles - 2027 - Preparing for Okta Certified Professional (OCP) 
 **Original:** Forked from RyanKennon/Okta-Lab-Series
 
 ## Skills Demonstrated
@@ -45,23 +45,23 @@
   
 <a id="lab-1---okta-tenant-setup--configuration"></a>
 ### Lab 1 - Okta Tenant Setup & Configuration
-### **Lab 1 - Architecture Diagram:** <br>
-![Architecture_Diagram](screenshots/lab1/Architecture_Diagram.png) <br>
-### **Organization Contact:** <br>
+### **Lab 1 - Architecture Diagram:** 
+![Architecture_Diagram](screenshots/lab1/Architecture_Diagram.png) 
+### **Organization Contact:** 
 ![Organization Contact](screenshots/lab1/Image1.png)
-### **People:** <br>
+### **People:** 
 ![People](screenshots/lab1/People.png)
-### **Custom Profile Attributes:** <br>
+### **Custom Profile Attributes:** 
 ![Custom_Profile_Attributes](screenshots/lab1/Custom_Profile_Attributes.png)
-### **Groups:** <br>
+### **Groups:** 
 ![Groups](screenshots/lab1/Groups.png)
-### **Group Rules:** <br>
+### **Group Rules:** 
 ![Groups_Rules](screenshots/lab1/Group_Rules.png)
-### **Global Session Policy:** <br>
+### **Global Session Policy:** 
 ![Global_Session_Policy](screenshots/lab1/Global_Session_Policy.png)
-### **Authentication Policies:** <br>
+### **Authentication Policies:** 
 ![Authentication Policies](screenshots/lab1/Authentication_Policies.png)
-### **Authenticator Enrollment Policy:** <br>
+### **Authenticator Enrollment Policy:** 
 ![Authenticator_Enrollment_Policy](screenshots/lab1/Authenticator_Enrollment_Policy.png)
 
 ## Lab 1 - Key Learnings:
@@ -72,15 +72,15 @@
   
 <a id="lab-2---okta-active-directory-integration"></a>
 ### Lab 2 - Okta Active Directory Integration 
-### **Lab 2 - Architecture Diagram:** <br>
-![Architecture_Diagram](screenshots/lab2/Architecture_Diagram.png) <br>
-### **From AD To Okta:** <br>
+### **Lab 2 - Architecture Diagram:** 
+![Architecture_Diagram](screenshots/lab2/Architecture_Diagram.png) 
+### **From AD To Okta:** 
 ![FromAD_To_Okta](screenshots/lab2/FromAD_To_Okta.png)
-### **Enabled Delegated Authentication:** <br>
+### **Enabled Delegated Authentication:** 
 ![Enabled_Delegated_Authentication](screenshots/lab2/Enabled_Delegated_Authentication.png)
-### **User Profile Mapping AD:** <br>
+### **User Profile Mapping AD:** 
 ![User_Profile_Mapping_AD](screenshots/lab2/User_Profile_Mapping_AD.png)
-### **User Profile Mapping Okta:** <br>
+### **User Profile Mapping Okta:** 
 ![User_Profile_Mapping_Okta](screenshots/lab2/User_Profile_Mapping_Okta.png)
 
 ## Lab 2 - Key Learnings:
@@ -91,19 +91,19 @@
   
 <a id="lab-3---okta-rbac-design-and-implementation"></a>
 ### Lab 3 - Okta RBAC Design and Implementation  
-### **Lab 3 - Architecture Diagram:** <br>
-![Architecture_Diagram](screenshots/lab3/Architecture_Diagram.png) <br>
-### **Okta Group Sync:** <br>
+### **Lab 3 - Architecture Diagram:** 
+![Architecture_Diagram](screenshots/lab3/Architecture_Diagram.png) 
+### **Okta Group Sync:** 
 ![Okta_Group_Sync](screenshots/lab3/Okta_Group_Sync.png)
-### **Full Import:** <br>
+### **Full Import:** 
 ![Full_Import](screenshots/lab3/Full_Import.png)
-### **Sarah Disabled AD:** <br>
+### **Sarah Disabled AD:** 
 ![Sarah_Disabled_AD](screenshots/lab3/Sarah_Disabled_AD.png)
-### **Sarah Deactivated Okta:** <br>
+### **Sarah Deactivated Okta:** 
 ![Sarah_Deactivated_Okta](screenshots/lab3/Sarah_Deactivated_Okta.png)
-### **Access Sprawl Investigation:** <br>
+### **Access Sprawl Investigation:** 
 ![Access_Sprawl_Investigation](screenshots/lab3/Access_Sprawl_Investigation.png)
-### **Access Sprawl Report:** <br>
+### **Access Sprawl Report:** 
 ![Access_Sprawl_Report](screenshots/lab3/Access_Sprawl_Report.png)
 
 ## Lab 3 - Key Learnings:
@@ -114,23 +114,23 @@
  
 <a id="lab-4---okta-saml-20-application-integration"></a>
 ### Lab 4 - Okta SAML 2.0 Application Integration
-### **Lab 4 - Architecture Diagram:** <br>
-![Architecture_Diagram](screenshots/lab4/Architecture_Diagram.png) <br>
-### **Custom SAML App Creation 1:** <br>
+### **Lab 4 - Architecture Diagram:** 
+![Architecture_Diagram](screenshots/lab4/Architecture_Diagram.png) 
+### **Custom SAML App Creation 1:** 
 ![Slack_SP_Shrestha_Technology_1](screenshots/lab4/Slack_SP_Shrestha_Technology_1.png) 
-### **Custom SAML App Creation 2:** <br>
+### **Custom SAML App Creation 2:** 
 ![Slack_SP_Shrestha_Technology_2](screenshots/lab4/Slack_SP_Shrestha_Technology_2.png) 
-### **Custom SAML App Creation 3:** <br>
+### **Custom SAML App Creation 3:** 
 ![Slack_SP_Shrestha_Technology_3](screenshots/lab4/Slack_SP_Shrestha_Technology_3.png)
-### **Group Based App Access:** <br>
+### **Group Based App Access:** 
 ![Group_Based_App_Access](screenshots/lab4/Group_Based_App_Access_1.png)
 ![Group_Based_App_Access](screenshots/lab4/Group_Based_App_Access_2.png)
-### **Multiple SP Configuration:** <br>
+### **Multiple SP Configuration:** 
 ![Multiple SP Configuration](screenshots/lab4/Multiple_SP_Configuration_1.png)
 ![Multiple SP Configuration](screenshots/lab4/Multiple_SP_Configuration_2.png)
-### **Least privilege Access. John Smith (Finance) sees Slack and Sharepoint only:** <br>
+### **Least privilege Access. John Smith (Finance) sees Slack and Sharepoint only:** 
 ![John_App_Access](screenshots/lab4/John_App_Access.png)
-### **Least privilege Access. Lisa Park (HR+Cloud) sees all 3 Slack/Google Workspace/Sharepoint :** <br>
+### **Least privilege Access. Lisa Park (HR+Cloud) sees all 3 Slack/Google Workspace/Sharepoint :** 
 ![Lisa_App_Access](screenshots/lab4/Lisa_App_Access.png)
 
 ## Lab 4 - Key Learnings:
@@ -141,45 +141,45 @@
 
 <a id="lab-5---okta-mfa-and-adaptive-authentication"></a>
 ### Lab 5 - Okta MFA and Adaptive Authentication
-### **Lab 5 - Architecture Diagram:** <br>
-![Architecture_Diagram](screenshots/lab5/Architecture_Diagram.png) <br>
-### **1) Enroll Okta Verify:** <br>
+### **Lab 5 - Architecture Diagram:** 
+![Architecture_Diagram](screenshots/lab5/Architecture_Diagram.png) 
+### **1) Enroll Okta Verify:** 
 ![Enroll_Okta_Verify](screenshots/lab5/Enroll_Okta_Verify.png) 
-### **Passwordless Enrollment 1:** <br>
+### **Passwordless Enrollment 1:** 
 ![Passwordless_Enrollment_1](screenshots/lab5/Passwordless_Enrollment_1.png) 
-### **Passwordless Enrollment 2:** <br>
+### **Passwordless Enrollment 2:** 
 ![Passwordless_Enrollment_2](screenshots/lab5/Passwordless_Enrollment_2.png) 
-### **Passwordless Enrollment 3:** <br>
+### **Passwordless Enrollment 3:** 
 ![Passwordless_Enrollment_3](screenshots/lab5/Passwordless_Enrollment_3.png) 
-### **Passwordless Enrollment 4:** <br>
+### **Passwordless Enrollment 4:** 
 ![Passwordless_Enrollment_4](screenshots/lab5/Passwordless_Enrollment_4.png) 
-### **Passwordless Enrollment 5:** <br>
+### **Passwordless Enrollment 5:** 
 ![Passwordless_Enrollment_5](screenshots/lab5/Passwordless_Enrollment_5.png) 
-### **Network Zones:** <br>
+### **Network Zones:** 
 ![Network_Zones](screenshots/lab5/Network_Zones.png)
-### **Risk Based Adaptive MFA Policy Outside Network:** <br>
+### **Risk Based Adaptive MFA Policy Outside Network:** 
 ![Risk_Based_Adaptive_MFA_Policy_OutsideNetwork](screenshots/lab5/Risk_Based_Adaptive_MFA_Policy_OutsideNetwork.png)
-### **Risk Based Adaptive MFA Policy Corporate:** <br>
+### **Risk Based Adaptive MFA Policy Corporate:** 
 ![Risk_Based_Adaptive_MFA_Policy_Corporate](screenshots/lab5/Risk_Based_Adaptive_MFA_Policy_Corporate.png)
-### **Step Up Authentication 1:** <br>
+### **Step Up Authentication 1:** 
 ![Step_Up_Authentication_Policy](screenshots/lab5/Step_Up_Authentication_Policy.png)
-### **Step Up Authentication 2:** <br>
+### **Step Up Authentication 2:** 
 ![Step_Up_Authentication_Rule](screenshots/lab5/Step_Up_Authentication_Rule.png)
-### **Step Up Authentication 3:** <br>
+### **Step Up Authentication 3:** 
 ![Step_Up_Authentication_High_Assurance_Policy](screenshots/lab5/Step_Up_Authentication_High_Assurance_Policy.png)
-### **John Smith Username:** <br>
+### **John Smith Username:** 
 ![John_Smith_Username](screenshots/lab5/John_Smith_Username.png)
-### **John Smith Password:** <br>
+### **John Smith Password:** 
 ![John_Smith_Password](screenshots/lab5/John_Smith_Password.png)
-### **John Smith Access:** <br>
+### **John Smith Access:** 
 ![John_Smith_Access](screenshots/lab5/John_Smith_Access.png)
-### **AuthenticatorEnrollment Policy:** <br>
+### **AuthenticatorEnrollment Policy:** 
 ![Authenticator_Enrollment_Policy](screenshots/lab5/Authenticator_Enrollment_Policy.png)
-### **Jane Doe Username:** <br>
+### **Jane Doe Username:** 
 ![Jane_Doe_Username](screenshots/lab5/Jane_Doe_Username.png)
-### **Jane Doe Password:** <br>
+### **Jane Doe Password:** 
 ![Jane_Doe_Password](screenshots/lab5/Jane_Doe_Password.png)
-### **Jane Doe Access:** <br>
+### **Jane Doe Access:** 
 ![Jane_Doe_Access](screenshots/lab5/Jane_Doe_Access.png)
 
 ## Lab 5 - Key Learnings:
