@@ -157,7 +157,7 @@
 ![Passwordless_Enrollment_5](screenshots/lab5/Passwordless_Enrollment_5.png) 
 ### **Network Zones:** <br>
 ![Network_Zones](screenshots/lab5/Network_Zones.png)
-### **Risk Based Adaptive MFA Policy OutsideNetwork:** <br>
+### **Risk Based Adaptive MFA Policy Outside Network:** <br>
 ![Risk_Based_Adaptive_MFA_Policy_OutsideNetwork](screenshots/lab5/Risk_Based_Adaptive_MFA_Policy_OutsideNetwork.png)
 ### **Risk Based Adaptive MFA Policy Corporate:** <br>
 ![Risk_Based_Adaptive_MFA_Policy_Corporate](screenshots/lab5/Risk_Based_Adaptive_MFA_Policy_Corporate.png)
