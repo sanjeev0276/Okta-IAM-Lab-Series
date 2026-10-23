@@ -118,7 +118,7 @@ Enterprise IAM across 6 labs using Okta, AD, SAML 2.0, and Adaptive MFA.
 ### Lab 3: RBAC Design & Access Sprawl Investigation
 
 **Key Learnings & Takeaways:**
-* Enforced end-to-end lifecycle flow: `HR → AD → Okta`. Disabling an identity in AD instantly revokes Okta sessions and deactivates access.
+* Enforced end-to-end lifecycle flow: `HR → AD → Okta`. Tested AD account disablement and verified the resulting Okta lifecycle state. Session revocation and downstream application access require separate validation.
 * Audited governance bypasses in Okta System Logs (`application.user_membership.add`) to detect direct user-to-app assignments and restore strict RBAC posture.
 
 <details>
