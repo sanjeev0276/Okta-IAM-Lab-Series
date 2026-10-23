@@ -1,8 +1,8 @@
 # Okta IAM Lab Series - Hands-On Architecture & Implementation
-**Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies) <br>
+**Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies)  
 **Target Roles:** IAM Engineer / IAM Developer (2027)  
 **Certification Focus:** Preparing for Okta Certified Professional (OCP)  
-**Environment:** Okta Developer Tenant (*.okta.com - redacted)  
+**Environment:** Okta Developer Tenant (*.okta.com - redacted) 
 
 ---
 
