@@ -14,7 +14,7 @@ Conceptual HR Source (simulated) → AD `allenlab.local` → Okta `*.okta.com - 
 
 ## Executive Summary & Business Impact
 
-Enterprise IAM across 6 labs using Okta, AD, SAML 2.0, and Adaptive MFA.
+Implemented an end-to-end IAM environment using Okta, Active Directory, SAML federation, Adaptive MFA, RBAC, and automated Joiner-Mover-Leaver lifecycle processes across six hands-on labs.
 
 * **Tenant Foundation (Lab 1):** Core Okta tenant `*.okta.com - redacted`, custom profile attributes, Groups RBAC, Global Session + Auth + Enrollment Policies.
 * **Access Governance (Lab 3+4):** Group-based provisioning, access-sprawl audit via System Log `application.user_membership.add`, least-privilege via group app assignments for Slack, Workspace, SharePoint.
