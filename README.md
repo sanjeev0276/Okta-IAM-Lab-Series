@@ -44,7 +44,7 @@ Enterprise IAM across 6 labs using Okta, AD, SAML 2.0, and Adaptive MFA.
 | **Lab 3** | [RBAC Design & Access Sprawl Investigation](#lab-3-rbac-design--access-sprawl-investigation) | Completed | Oct 21, 2026 |
 | **Lab 4** | [SAML 2.0 SSO Application Integration](#lab-4-saml-20-application-integration) | Completed | Oct 21, 2026 |
 | **Lab 5** | [MFA, Adaptive Authentication & Step-Up](#lab-5-adaptive-mfa-step-up-authentication--zero-trust) | Completed | Oct 22, 2026 |
-| **Lab 6** | [Advanced JML Lifecycle Automation](#lab-6---okta-jml-lifecycle-automation) | Completed | Oct 23, 2026 |
+| **Lab 6** | [Advanced JML Lifecycle Automation](#lab-6-okta-jml-lifecycle-automation) | Completed | Oct 23, 2026 |
 
 ---
 
