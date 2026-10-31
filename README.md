@@ -5,6 +5,16 @@
 ![SAML](https://img.shields.io/badge/SAML%202.0-SSO-FF6B00?style=for-the-badge)
 ![MFA](https://img.shields.io/badge/Adaptive%20MFA-Zero%20Trust-00A86B?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+**Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies)  
+**Target Roles:** IAM Engineer / Identity Engineer / Okta Administrator / Entra ID Engineer (2027)  
+**Certification Focus:** Preparing for Okta Certified Professional (OCP)  
+**Environment:** Okta Developer Tenant (*.okta.com - redacted) 
+
+## 6 Labs Architecture Overview
+Conceptual HR Source (simulated) → AD `allenlab.local` → Okta `*.okta.com - redacted` → RBAC Groups → Apps (Slack, Workspace, SharePoint) → Adaptive MFA / Zero Trust → JML Automation
+ ![Architecture_Overview](Overall_Architecture.png)
+
 ## Quick Navigation & Lab Execution Status
 
 | Lab | Focus Area | Status | Jump to Lab |
@@ -15,19 +25,8 @@
 | **Lab 4** | SAML 2.0 Application Integration | Completed | [Go to Lab 4](#lab-4-saml-20-application-integration) |
 | **Lab 5** | Adaptive MFA, Step-Up & Zero Trust | Completed | [Go to Lab 5](#lab-5-adaptive-mfa-step-up-authentication--zero-trust) |
 | **Lab 6** | JML Lifecycle Automation | Completed | [Go to Lab 6](#lab-6-okta-jml-lifecycle-automation) |
-## 6 Labs Architecture Overview
-Conceptual HR Source (simulated) → AD `allenlab.local` → Okta `*.okta.com - redacted` → RBAC Groups → Apps (Slack, Workspace, SharePoint) → Adaptive MFA / Zero Trust → JML Automation
- ![Architecture_Overview](Overall_Architecture.png)
- 
-**Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies)  
-**Target Roles:** IAM Engineer / Identity Engineer / Okta Administrator / Entra ID Engineer (2027)  
-**Certification Focus:** Preparing for Okta Certified Professional (OCP)  
-**Environment:** Okta Developer Tenant (*.okta.com - redacted) 
 
 ---
-
-
-
 ## Executive Summary & Business Impact
 
 Implemented an end-to-end IAM environment using Okta, Active Directory, SAML federation, Adaptive MFA, RBAC, and automated Joiner-Mover-Leaver lifecycle processes across six hands-on labs.
