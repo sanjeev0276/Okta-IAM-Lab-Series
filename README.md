@@ -268,12 +268,14 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 #### Validation and Limitations
 
 AD and Okta state changes do not, by themselves, prove downstream application deprovisioning or active-session revocation. Those outcomes require separate validation.
+
 **[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
 
 ---
 
 ## Original Repository & Credits
 This hands-on lab series was adapted and built upon the foundational framework provided by [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series). Full original references can be found in [REFERENCE.md](REFERENCE.md).
+
 
 
 
