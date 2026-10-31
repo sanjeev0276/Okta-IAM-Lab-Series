@@ -17,7 +17,6 @@ Conceptual HR Source (simulated) → AD `allenlab.local` → Okta `*.okta.com - 
 
 ## Quick Navigation and Lab Execution Status
 <a id="lab-execution-status"></a>
-
 | Lab       | Focus Area                                | Status    | Jump to Lab                                                                  |
 |-----------|-------------------------------------------|-----------|------------------------------------------------------------------------------|
 | **Lab 1** | Tenant Setup and Core Identity Foundation   | Completed | [Go to Lab 1](#lab-1-okta-tenant-setup--configuration)                       |
@@ -54,6 +53,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 
 ## Detailed Lab Implementations and Visual Proof
 
+<a id="lab-1-okta-tenant-setup--configuration"></a>
 ### Lab 1: Okta Tenant Setup and Configuration
 
 **Key Learnings and Takeaways:**
@@ -91,6 +91,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 ---
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
+<a id="lab-2-active-directory-integration--delegated-authentication"></a>
 ### Lab 2: Active Directory Integration and Delegated Authentication
 
 **Key Learnings and Takeaways:**
@@ -120,6 +121,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 ---
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
+<a id="lab-3-rbac-design--access-sprawl-investigation"></a>
 ### Lab 3: RBAC Design and Access Sprawl Investigation
 
 **Key Learnings and Takeaways:**
@@ -186,6 +188,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 ---
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
+<a id="lab-5-adaptive-mfa-step-up-authentication--zero-trust"></a>
 ### Lab 5: Adaptive MFA, Step-Up Authentication and Zero Trust
 
 **Key Learnings and Takeaways:**
@@ -278,6 +281,7 @@ AD and Okta state changes do not, by themselves, prove downstream application de
 
 ## Original Repository and Credits
 This hands-on lab series was adapted and built upon the foundational framework provided by [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series). Full original references can be found in [REFERENCE.md](REFERENCE.md).
+
 
 
 
