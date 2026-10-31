@@ -1,4 +1,20 @@
 # Okta IAM Lab Series - Hands-On Architecture & Implementation
+![Okta](https://img.shields.io/badge/Okta-IAM-007DC1?style=for-the-badge&logo=okta&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active%20Directory-Integration-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![SAML](https://img.shields.io/badge/SAML%202.0-SSO-FF6B00?style=for-the-badge)
+![MFA](https://img.shields.io/badge/Adaptive%20MFA-Zero%20Trust-00A86B?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+## Quick Navigation & Lab Exection Status
+
+| Lab | Focus Area | Status | Jump to Lab |
+|-----|------------|--------|-------------|
+| **Lab 1** | Tenant Setup & Core Identity Foundation | Completed | [Go to Lab 1](#lab-1-okta-tenant-setup--configuration) |
+| **Lab 2** | Active Directory Integration & DelAuth | Completed | [Go to Lab 2](#lab-2-active-directory-integration--delegated-authentication) |
+| **Lab 3** | RBAC Design & Access Sprawl Investigation | Completed | [Go to Lab 3](#lab-3-rbac-design--access-sprawl-investigation) |
+| **Lab 4** | SAML 2.0 Application Integration | Completed | [Go to Lab 4](#lab-4-saml-20-application-integration) |
+| **Lab 5** | Adaptive MFA, Step-Up & Zero Trust | Completed | [Go to Lab 5](#lab-5-adaptive-mfa-step-up-authentication--zero-trust) |
+| **Lab 6** | JML Lifecycle Automation | Completed | [Go to Lab 6](#lab-6-okta-jml-lifecycle-automation) |
 ## 6 Labs Architecture Overview
 Conceptual HR Source (simulated) → AD `allenlab.local` → Okta `*.okta.com - redacted` → RBAC Groups → Apps (Slack, Workspace, SharePoint) → Adaptive MFA / Zero Trust → JML Automation
  ![Architecture_Overview](Overall_Architecture.png)
@@ -34,20 +50,6 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * Adaptive Risk-Based Authentication & Network Zones
 * Step-Up Authentication & Passwordless Policies
 * User Lifecycle Management (JML) & Access Sprawl Audit
-
----
-## Lab Execution Status
-
-| Lab Phase | Focus Area | Status | Completion Date |
-| :--- | :--- | :---: | :---: |
-| **Lab 1** | [Tenant Setup & Core Identity Foundation](#lab-1-okta-tenant-setup--configuration) | Completed | Oct 19, 2026 |
-| **Lab 2** | [Active Directory Integration & DelAuth](#lab-2-active-directory-integration--delegated-authentication) | Completed | Oct 21, 2026 |
-| **Lab 3** | [RBAC Design & Access Sprawl Investigation](#lab-3-rbac-design--access-sprawl-investigation) | Completed | Oct 21, 2026 |
-| **Lab 4** | [SAML 2.0 SSO Application Integration](#lab-4-saml-20-application-integration) | Completed | Oct 21, 2026 |
-| **Lab 5** | [MFA, Adaptive Authentication & Step-Up](#lab-5-adaptive-mfa-step-up-authentication--zero-trust) | Completed | Oct 22, 2026 |
-| **Lab 6** | [Advanced JML Lifecycle Automation](#lab-6-okta-jml-lifecycle-automation) | Completed | Oct 23, 2026 |
-
----
 
 
 ## Detailed Lab Implementations & Visual Proof
