@@ -1,5 +1,5 @@
 # Okta IAM Lab Series - Hands-On Architecture & Implementation
-## Architecture Overview
+## 6 Labs Architecture Overview
 Conceptual HR Source (simulated) → AD `allenlab.local` → Okta `*.okta.com - redacted` → RBAC Groups → Apps (Slack, Workspace, SharePoint) → Adaptive MFA / Zero Trust → JML Automation
  ![Architecture_Overview](Overall_Architecture.png)
  
