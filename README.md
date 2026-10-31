@@ -88,7 +88,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 </details>
 
 ---
-**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
+**[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ### Lab 2: Active Directory Integration and Delegated Authentication
 
@@ -117,7 +117,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 </details>
 
 ---
-**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
+**[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ### Lab 3: RBAC Design and Access Sprawl Investigation
 
@@ -149,8 +149,9 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 </details>
 
 ---
-**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
+**[↑ Back to Lab Execution Status](#lab-execution-status)**
 
+<a id="lab-4-saml-20-application-integration"></a>
 ### Lab 4: SAML 2.0 Application Integration
 
 **Key Learnings and Takeaways:**
@@ -182,7 +183,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 </details>
 
 ---
-**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
+**[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ### Lab 5: Adaptive MFA, Step-Up Authentication and Zero Trust
 
@@ -217,8 +218,9 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 </details>
 
 ---
-**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
+**[↑ Back to Lab Execution Status](#lab-execution-status)**
 
+<a id="lab-6-okta-jml-lifecycle-automation"></a>
 ### Lab 6: Okta JML Lifecycle Automation
 
 **Key Learnings & Takeaways:**
@@ -269,12 +271,13 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 
 AD and Okta state changes do not, by themselves, prove downstream application deprovisioning or active-session revocation. Those outcomes require separate validation.
 
-**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
+**[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ---
 
 ## Original Repository and Credits
 This hands-on lab series was adapted and built upon the foundational framework provided by [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series). Full original references can be found in [REFERENCE.md](REFERENCE.md).
+
 
 
 
