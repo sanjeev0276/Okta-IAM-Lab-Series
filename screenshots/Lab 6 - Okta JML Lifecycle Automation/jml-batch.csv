@@ -1,0 +1,4 @@
+Action,Username,FirstName,LastName,Department,Title,OldGroup,NewGroup
+Joiner,mike.chen,Mike,Chen,Human Resources,Support Specialist,,Human Resources
+Mover,bob.johnson,,,Finance,Financial Analyst,Human Resources,Finance
+Leaver,lisa.park,,,,,,
