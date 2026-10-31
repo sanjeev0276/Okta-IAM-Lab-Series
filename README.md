@@ -21,6 +21,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * **Lifecycle Automation (Lab 2+6):** AD `allenlab.local` as source with DelAuth + Full/Incremental Import via AD Agent, JML automation with PowerShell + CSV batch `jml-batch.csv`, Unassigned → Confirm → Active/Deactivated.
 * **Centralized Auth (Lab 4):** SAML 2.0 federation with attribute mapping across Slack, Google Workspace, SharePoint.
 * **Zero Trust (Lab 5):** Network Zones Trusted/Untrusted IP, Adaptive Sign-On + Step-Up High Assurance for SharePoint, Passwordless Okta Verify Push with Number Matching.
+* **Users Managed:** 20+ AD users, 6 Groups, 3 SAML Apps, 22 MFA policies
 
 ---
 
@@ -224,17 +225,6 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 - Uses the Okta AD Agent and Full/Incremental Import to validate applicable AD changes in Okta.
 - Supports CSV-driven batch processing for multiple lifecycle actions.
 
-#### 📂 Code & Automation Artifacts (Direct Inspect)
-- **Joiner:** [`scripts/Joiner.ps1`](scripts/Joiner.ps1) — Create a user and assign configured groups.
-- **Mover:** [`scripts/Mover.ps1`](scripts/Mover.ps1) — Update user attributes and change group memberships.
-- **Leaver:** [`scripts/Leaver.ps1`](scripts/Leaver.ps1) — Disable the account and remove configured group memberships.
-- **CSV input:** [`csv-file/Jml-Batch.csv`](csv-file/Jml-Batch.csv) — Batch lifecycle records.
-- **Batch runner:** [`scripts/JML-Batch.ps1`](scripts/JML-Batch.ps1) — Process CSV records with validation.
-
-#### Validation and Limitations
-
-AD and Okta state changes do not, by themselves, prove downstream application deprovisioning or active-session revocation. Those outcomes require separate validation.
-
 <details>
 <summary>📸 <b>Click to view Lab 6 Diagrams & Screenshots</b></summary>
 
@@ -267,7 +257,16 @@ AD and Okta state changes do not, by themselves, prove downstream application de
 </details>
 
 ---
+#### 📂 Code & Automation Artifacts (Direct Inspect)
+- **Joiner:** [`scripts/Joiner.ps1`](scripts/Joiner.ps1) — Create a user and assign configured groups.
+- **Mover:** [`scripts/Mover.ps1`](scripts/Mover.ps1) — Update user attributes and change group memberships.
+- **Leaver:** [`scripts/Leaver.ps1`](scripts/Leaver.ps1) — Disable the account and remove configured group memberships.
+- **CSV input:** [`csv-file/Jml-Batch.csv`](csv-file/Jml-Batch.csv) — Batch lifecycle records.
+- **Batch runner:** [`scripts/JML-Batch.ps1`](scripts/JML-Batch.ps1) — Process CSV records with validation.
 
+#### Validation and Limitations
+
+AD and Okta state changes do not, by themselves, prove downstream application deprovisioning or active-session revocation. Those outcomes require separate validation.
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ---
