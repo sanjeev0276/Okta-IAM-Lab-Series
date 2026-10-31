@@ -5,7 +5,7 @@
 ![SAML](https://img.shields.io/badge/SAML%202.0-SSO-FF6B00?style=for-the-badge)
 ![MFA](https://img.shields.io/badge/Adaptive%20MFA-Zero%20Trust-00A86B?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-## Quick Navigation & Lab Exection Status
+## Quick Navigation & Lab Execution Status
 
 | Lab | Focus Area | Status | Jump to Lab |
 |-----|------------|--------|-------------|
@@ -89,7 +89,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 </details>
 
 ---
-**[↑ Back to Lab Execution Status](#lab-execution-status)**
+**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
 
 ### Lab 2: Active Directory Integration & Delegated Authentication
 
@@ -118,7 +118,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 </details>
 
 ---
-**[↑ Back to Lab Execution Status](#lab-execution-status)**
+**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
 
 ### Lab 3: RBAC Design & Access Sprawl Investigation
 
@@ -150,7 +150,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 </details>
 
 ---
-**[↑ Back to Lab Execution Status](#lab-execution-status)**
+**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
 
 ### Lab 4: SAML 2.0 Application Integration
 
@@ -183,7 +183,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 </details>
 
 ---
-**[↑ Back to Lab Execution Status](#lab-execution-status)**
+**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
 
 ### Lab 5: Adaptive MFA, Step-Up Authentication & Zero Trust
 
@@ -218,7 +218,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 </details>
 
 ---
-**[↑ Back to Lab Execution Status](#lab-execution-status)**
+**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
 
 ### Lab 6: Okta JML Lifecycle Automation
 
@@ -269,11 +269,12 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 #### Validation and Limitations
 
 AD and Okta state changes do not, by themselves, prove downstream application deprovisioning or active-session revocation. Those outcomes require separate validation.
-**[↑ Back to Lab Execution Status](#lab-execution-status)**
+**[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
 
 ---
 
 ## Original Repository & Credits
 This hands-on lab series was adapted and built upon the foundational framework provided by [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series). Full original references can be found in [REFERENCE.md](REFERENCE.md).
+
 
 
