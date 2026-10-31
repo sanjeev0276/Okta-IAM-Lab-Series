@@ -66,25 +66,25 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab 1 - Okta Tenant Setup and Configuration/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Architecture_Diagram.png)
 
 #### Administration & Configuration Captures
 * **Organization Contact:**  
-  ![Organization Contact](Lab 1 - Okta Tenant Setup and Configuration/Screenshots/Image1.png)
+  ![Organization Contact](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Image1.png)
 * **People Directory:**  
-  ![People](Lab 1 - Okta Tenant Setup and Configuration/Screenshots/People.png)
+  ![People](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/People.png)
 * **Custom Profile Attributes:**  
-  ![Custom Profile Attributes](Lab 1 - Okta Tenant Setup and Configuration/Screenshots/Custom_Profile_Attributes.png)
+  ![Custom Profile Attributes](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Custom_Profile_Attributes.png)
 * **Group Management:**  
-  ![Groups](Lab 1 - Okta Tenant Setup and Configuration/Screenshots/Groups.png)
+  ![Groups](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Groups.png)
 * **Automated Group Rules:**  
-  ![Group Rules](Lab 1 - Okta Tenant Setup and Configuration/Screenshots/Group_Rules.png)
+  ![Group Rules](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Group_Rules.png)
 * **Global Session Policy:**  
-  ![Global Session Policy](Lab 1 - Okta Tenant Setup and Configuration/Screenshots/Global_Session_Policy.png)
+  ![Global Session Policy](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Global_Session_Policy.png)
 * **Authentication Policies:**  
-  ![Authentication Policies](Lab 1 - Okta Tenant Setup and Configuration/Screenshots/Authentication_Policies.png)
+  ![Authentication Policies](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Authentication_Policies.png)
 * **Authenticator Enrollment Policy:**  
-  ![Authenticator Enrollment Policy](Lab 1 - Okta Tenant Setup and Configuration/Screenshots/Authenticator_Enrollment_Policy.png)
+  ![Authenticator Enrollment Policy](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Authenticator_Enrollment_Policy.png)
 
 </details>
 
@@ -103,17 +103,17 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab 2 - Okta Active Directory Integration/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab%202%20-%20Okta%20Active%20Directory%20Integration/Screenshots/Architecture_Diagram.png)
 
 #### Active Directory Integration Proof
 * **AD to Okta Provisioning Pipeline:**  
-  ![From AD To Okta](Lab 2 - Okta Active Directory Integration/Screenshots/FromAD_To_Okta.png)
+  ![From AD To Okta](Lab%202%20-%20Okta%20Active%20Directory%20Integration/Screenshots/FromAD_To_Okta.png)
 * **Delegated Authentication Enabled:**  
-  ![Enabled Delegated Authentication](Lab 2 - Okta Active Directory Integration/Screenshots/Enabled_Delegated_Authentication.png)
+  ![Enabled Delegated Authentication](Lab%202%20-%20Okta%20Active%20Directory%20Integration/Screenshots/Enabled_Delegated_Authentication.png)
 * **AD Profile Mapping:**  
-  ![User Profile Mapping AD](Lab 2 - Okta Active Directory Integration/Screenshots/User_Profile_Mapping_AD.png)
+  ![User Profile Mapping AD](Lab%202%20-%20Okta%20Active%20Directory%20Integration/Screenshots/User_Profile_Mapping_AD.png)
 * **Okta User Profile Mapping:**  
-  ![User Profile Mapping Okta](Lab 2 - Okta Active Directory Integration/Screenshots/User_Profile_Mapping_Okta.png)
+  ![User Profile Mapping Okta](Lab%202%20-%20Okta%20Active%20Directory%20Integration/Screenshots/User_Profile_Mapping_Okta.png)
 
 </details>
 
@@ -132,20 +132,20 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab 3 - Okta RBAC Design and Implementation/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Architecture_Diagram.png)
 
 #### RBAC & Deprovisioning Proof
 * **Group Sync Verification:**  
-  ![Okta Group Sync](Lab 3 - Okta RBAC Design and Implementation/Screenshots/Okta_Group_Sync.png)
+  ![Okta Group Sync](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Okta_Group_Sync.png)
 * **Full Reconciliation Import:**  
-  ![Full Import](Lab 3 - Okta RBAC Design and Implementation/Screenshots/Full_Import.png)
+  ![Full Import](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Full_Import.png)
 * **Lifecycle Deactivation (AD side):**  
-  ![Sarah Disabled AD](Lab 3 - Okta RBAC Design and Implementation/Screenshots/Sarah_Disabled_AD.png)
+  ![Sarah Disabled AD](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Sarah_Disabled_AD.png)
 * **Lifecycle Deactivation (Okta side):**  
-  ![Sarah Deactivated Okta](Lab 3 - Okta RBAC Design and Implementation/Screenshots/Sarah_Deactivated_Okta.png)
+  ![Sarah Deactivated Okta](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Sarah_Deactivated_Okta.png)
 * **Access Sprawl Investigation & Audit Report:**  
-  ![Access Sprawl Investigation](Lab 3 - Okta RBAC Design and Implementation/Screenshots/Access_Sprawl_Investigation.png)  
-  ![Access Sprawl Report](Lab 3 - Okta RBAC Design and Implementation/Screenshots/Access_Sprawl_Report.png)
+  ![Access Sprawl Investigation](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Access_Sprawl_Investigation.png)  
+  ![Access Sprawl Report](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Access_Sprawl_Report.png)
 
 </details>
 
@@ -164,21 +164,21 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab 4 - Okta SAML 2.0 Application Integration/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Architecture_Diagram.png)
 
 #### SAML Integration Proof
 * **Custom SAML Configuration:**  
-  ![SAML Creation 1](Lab 4 - Okta SAML 2.0 Application Integration/Screenshots/Slack_SP_Shrestha_Technology_1.png)  
-  ![SAML Creation 2](Lab 4 - Okta SAML 2.0 Application Integration/Screenshots/Slack_SP_Shrestha_Technology_2.png)  
-  ![SAML Creation 3](Lab 4 - Okta SAML 2.0 Application Integration/Screenshots/Slack_SP_Shrestha_Technology_3.png)
+  ![SAML Creation 1](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Slack_SP_Shrestha_Technology_1.png)  
+  ![SAML Creation 2](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Slack_SP_Shrestha_Technology_2.png)  
+  ![SAML Creation 3](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Slack_SP_Shrestha_Technology_3.png)
 * **Group-Based Application Assignments:**  
-  ![Group Based App Access 1](Lab 4 - Okta SAML 2.0 Application Integration/Screenshots/Group_Based_App_Access_1.png)  
-  ![Group Based App Access 2](Lab 4 - Okta SAML 2.0 Application Integration/Screenshots/Group_Based_App_Access_2.png)
+  ![Group Based App Access 1](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Group_Based_App_Access_1.png)  
+  ![Group Based App Access 2](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Group_Based_App_Access_2.png)
 * **Least Privilege Access Verification:**  
   * *Finance User (John Smith - Limited Access):*  
-    ![John App Access](Lab 4 - Okta SAML 2.0 Application Integration/Screenshots/John_App_Access.png)
+    ![John App Access](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/John_App_Access.png)
   * *HR & Cloud Admin (Lisa Park - Extended Access):*  
-    ![Lisa App Access](Lab 4 - Okta SAML 2.0 Application Integration/Screenshots/Lisa_App_Access.png)
+    ![Lisa App Access](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Lisa_App_Access.png)
 
 </details>
 
@@ -197,23 +197,23 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab 5 - Okta MFA and Adaptive Authentication/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Architecture_Diagram.png)
 
 #### MFA & Policy Verification
 * **Authenticator Enrollment & Passwordless Setup:**  
-  ![Enroll Okta Verify](Lab 5 - Okta MFA and Adaptive Authentication/Screenshots/Enroll_Okta_Verify.png)  
-  ![Passwordless Enrollment](Lab 5 - Okta MFA and Adaptive Authentication/Screenshots/Passwordless_Enrollment_1.png)
+  ![Enroll Okta Verify](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Enroll_Okta_Verify.png)  
+  ![Passwordless Enrollment](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Passwordless_Enrollment_1.png)
 * **Network Zones & Adaptive Rules:**  
-  ![Network Zones](Lab 5 - Okta MFA and Adaptive Authentication/Screenshots/Network_Zones.png)  
-  ![Adaptive Policy Outside Network](Lab 5 - Okta MFA and Adaptive Authentication/Screenshots/Risk_Based_Adaptive_MFA_Policy_OutsideNetwork.png)  
-  ![Adaptive Policy Corporate Network](Lab 5 - Okta MFA and Adaptive Authentication/Screenshots/Risk_Based_Adaptive_MFA_Policy_Corporate.png)
+  ![Network Zones](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Network_Zones.png)  
+  ![Adaptive Policy Outside Network](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Risk_Based_Adaptive_MFA_Policy_OutsideNetwork.png)  
+  ![Adaptive Policy Corporate Network](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Risk_Based_Adaptive_MFA_Policy_Corporate.png)
 * **Step-Up Authentication Engine:**  
-  ![Step Up Policy](Lab 5 - Okta MFA and Adaptive Authentication/Screenshots/Step_Up_Authentication_Policy.png)  
-  ![Step Up Rule](Lab 5 - Okta MFA and Adaptive Authentication/Screenshots/Step_Up_Authentication_Rule.png)  
-  ![Step Up High Assurance](Lab 5 - Okta MFA and Adaptive Authentication/Screenshots/Step_Up_Authentication_High_Assurance_Policy.png)
+  ![Step Up Policy](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Step_Up_Authentication_Policy.png)  
+  ![Step Up Rule](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Step_Up_Authentication_Rule.png)  
+  ![Step Up High Assurance](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Step_Up_Authentication_High_Assurance_Policy.png)
 * **User Authentication Testing:**  
-  ![John Smith Access](Lab 5 - Okta MFA and Adaptive Authentication/Screenshots/John_Smith_Access.png)  
-  ![Jane Doe Access](Lab 5 - Okta MFA and Adaptive Authentication/Screenshots/Jane_Doe_Access.png)
+  ![John Smith Access](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/John_Smith_Access.png)  
+  ![Jane Doe Access](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Jane_Doe_Access.png)
 
 </details>
 
@@ -233,29 +233,29 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab 6 - Okta JML Lifecycle Automation/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Architecture_Diagram.png)
 
 #### Joiner Mover Leaver Lifecycle
 * **Joiner Onboarding Script:**  
-  ![Joiner_Onboarding_Script](Lab 6 - Okta JML Lifecycle Automation/Screenshots/Joiner_Onboarding_Script.png)    
+  ![Joiner_Onboarding_Script](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Joiner_Onboarding_Script.png)    
 * **IT Confirmation:**  
-  ![IT_Confirmation](Lab 6 - Okta JML Lifecycle Automation/Screenshots/IT_Confirmation.png)  
+  ![IT_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/IT_Confirmation.png)  
 * **Mover Script:**  
-  ![Mover_Script](Lab 6 - Okta JML Lifecycle Automation/Screenshots/Mover_Script.png)    
+  ![Mover_Script](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Mover_Script.png)    
 * **Finance Confirmation:**  
-  ![Finance_Confirmation](Lab 6 - Okta JML Lifecycle Automation/Screenshots/Finance_Confirmation.png)
+  ![Finance_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Finance_Confirmation.png)
 * **Leaver Script:**  
-  ![Leaver_Script](Lab 6 - Okta JML Lifecycle Automation/Screenshots/Leaver_Script.png)
+  ![Leaver_Script](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Leaver_Script.png)
 * **Deactivation Confirmation:**  
-  ![Deactivation_Confirmation](Lab 6 - Okta JML Lifecycle Automation/Screenshots/Deactivation_Confirmation.png)
+  ![Deactivation_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Deactivation_Confirmation.png)
 * **CSV Driven Batch Processing:**  
-  ![CSV_Driven_Batch_Processing](Lab 6 - Okta JML Lifecycle Automation/Screenshots/CSV_Driven_Batch_Processing.png)
+  ![CSV_Driven_Batch_Processing](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/CSV_Driven_Batch_Processing.png)
 * **Activated Deactivated Confirmation:** 
-  ![Activated_Deactivated_Confirmation](Lab 6 - Okta JML Lifecycle Automation/Screenshots/Activated_Deactivated_Confirmation.png)
+  ![Activated_Deactivated_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Activated_Deactivated_Confirmation.png)
 * **HR Group Confirmation:** 
-  ![HR_Group_Confirmation](Lab 6 - Okta JML Lifecycle Automation/Screenshots/HR_Group_Confirmation.png)
+  ![HR_Group_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/HR_Group_Confirmation.png)
 * **Finance Group Confirmation:** 
-  ![Finance_Group_Confirmation](Lab 6 - Okta JML Lifecycle Automation/Screenshots/Finance_Group_Confirmation.png)
+  ![Finance_Group_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Finance_Group_Confirmation.png)
 </details>
 
 ---
@@ -275,4 +275,5 @@ AD and Okta state changes do not, by themselves, prove downstream application de
 
 ## Original Repository & Credits
 This hands-on lab series was adapted and built upon the foundational framework provided by [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series). Full original references can be found in [REFERENCE.md](REFERENCE.md).
+
 
