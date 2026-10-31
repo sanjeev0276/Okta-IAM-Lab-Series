@@ -1,4 +1,4 @@
-# Okta IAM Lab Series - Hands-On Architecture & Implementation
+# Okta IAM Lab Series - Hands-On Architecture and Implementation
 ![Okta](https://img.shields.io/badge/Okta-IAM-007DC1?style=for-the-badge&logo=okta&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active%20Directory-Integration-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
@@ -15,7 +15,7 @@
 Conceptual HR Source (simulated) → AD `allenlab.local` → Okta `*.okta.com - redacted` → RBAC Groups → Apps (Slack, Workspace, SharePoint) → Adaptive MFA / Zero Trust → JML Automation
  ![Architecture_Overview](Overall_Architecture.png)
 
-## Quick Navigation & Lab Execution Status
+## Quick Navigation and Lab Execution Status
 
 | Lab       | Focus Area                                | Status    | Jump to Lab                                                                  |
 |-----------|-------------------------------------------|-----------|------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Conceptual HR Source (simulated) → AD `allenlab.local` → Okta `*.okta.com - 
 | **Lab 6** | JML Lifecycle Automation                  | Completed | [Go to Lab 6](#lab-6-okta-jml-lifecycle-automation)                          |
 
 ---
-## Executive Summary & Business Impact
+## Executive Summary and Business Impact
 
 Implemented an end-to-end IAM environment using Okta, Active Directory, SAML federation, Adaptive MFA, RBAC, and automated Joiner-Mover-Leaver lifecycle processes across six hands-on labs.
 
@@ -51,23 +51,23 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * User Lifecycle Management (JML) & Access Sprawl Audit
 
 
-## Detailed Lab Implementations & Visual Proof
+## Detailed Lab Implementations and Visual Proof
 
-### Lab 1: Okta Tenant Setup & Configuration
+### Lab 1: Okta Tenant Setup and Configuration
 
-**Key Learnings & Takeaways:**
+**Key Learnings and Takeaways:**
 * Established core tenant infrastructure including branding, directory schema, custom profile attributes, and group structures prior to app assignments.
 * Isolated Global Session Policies from application-level Authentication Policies and Authenticator Enrollment Policies to maintain granular access control.
 
 <details>
-<summary>📸 <b>Click to view Lab 1 Diagrams & Screenshots</b></summary>
+<summary>📸 <b>Click to view Lab 1 Diagrams and Screenshots</b></summary>
 
 <br>
 
 #### Architecture Diagram
 ![Architecture Diagram](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Architecture_Diagram.png)
 
-#### Administration & Configuration Captures
+#### Administration and Configuration Captures
 * **Organization Contact:**  
   ![Organization Contact](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Image1.png)
 * **People Directory:**  
@@ -90,14 +90,14 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 ---
 **[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
 
-### Lab 2: Active Directory Integration & Delegated Authentication
+### Lab 2: Active Directory Integration and Delegated Authentication
 
-**Key Learnings & Takeaways:**
+**Key Learnings and Takeaways:**
 * Configured Active Directory as the authoritative source of truth for user lifecycle operations (`allenlab.local`).
 * Evaluated standard import workflows: **Incremental Import** for daily delta synchronization vs. **Full Import** for initial reconciliation and bulk schema updates.
 
 <details>
-<summary>📸 <b>Click to view Lab 2 Diagrams & Screenshots</b></summary>
+<summary>📸 <b>Click to view Lab 2 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -119,14 +119,14 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 ---
 **[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
 
-### Lab 3: RBAC Design & Access Sprawl Investigation
+### Lab 3: RBAC Design and Access Sprawl Investigation
 
-**Key Learnings & Takeaways:**
+**Key Learnings and Takeaways:**
 * Enforced end-to-end lifecycle flow: `HR → AD → Okta`. Tested AD account disablement and verified the resulting Okta lifecycle state. Session revocation and downstream application access require separate validation.
 * Audited governance bypasses in Okta System Logs (`application.user_membership.add`) to detect direct user-to-app assignments and restore strict RBAC posture.
 
 <details>
-<summary>📸 <b>Click to view Lab 3 Diagrams & Screenshots</b></summary>
+<summary>📸 <b>Click to view Lab 3 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -142,7 +142,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
   ![Sarah Disabled AD](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Sarah_Disabled_AD.png)
 * **Lifecycle Deactivation (Okta side):**  
   ![Sarah Deactivated Okta](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Sarah_Deactivated_Okta.png)
-* **Access Sprawl Investigation & Audit Report:**  
+* **Access Sprawl Investigation and Audit Report:**  
   ![Access Sprawl Investigation](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Access_Sprawl_Investigation.png)  
   ![Access Sprawl Report](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Access_Sprawl_Report.png)
 
@@ -153,12 +153,12 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 
 ### Lab 4: SAML 2.0 Application Integration
 
-**Key Learnings & Takeaways:**
+**Key Learnings and Takeaways:**
 * Configured custom SAML 2.0 integrations with multiple Service Providers (Slack, Google Workspace, SharePoint).
 * Applied least-privilege entitlements through group memberships rather than direct assignments. Verified user access segregation across distinct user profiles in Incognito test sessions.
 
 <details>
-<summary>📸 <b>Click to view Lab 4 Diagrams & Screenshots</b></summary>
+<summary>📸 <b>Click to view Lab 4 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -184,14 +184,14 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 ---
 **[↑ Back to Lab Execution Status](#quick-navigation--lab-execution-status)**
 
-### Lab 5: Adaptive MFA, Step-Up Authentication & Zero Trust
+### Lab 5: Adaptive MFA, Step-Up Authentication and Zero Trust
 
-**Key Learnings & Takeaways:**
+**Key Learnings and Takeaways:**
 * Defined trusted vs. untrusted IP Network Zones. Constructed Adaptive Sign-On Rules to require MFA or block access based on client network context.
 * Enforced step-up authentication policies on high-value resources (e.g., SharePoint) to challenge active sessions upon accessing sensitive data.
 
 <details>
-<summary>📸 <b>Click to view Lab 5 Diagrams & Screenshots</b></summary>
+<summary>📸 <b>Click to view Lab 5 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -227,7 +227,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 - Supports CSV-driven batch processing for multiple lifecycle actions.
 
 <details>
-<summary>📸 <b>Click to view Lab 6 Diagrams & Screenshots</b></summary>
+<summary>📸 <b>Click to view Lab 6 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -273,7 +273,7 @@ AD and Okta state changes do not, by themselves, prove downstream application de
 
 ---
 
-## Original Repository & Credits
+## Original Repository and Credits
 This hands-on lab series was adapted and built upon the foundational framework provided by [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series). Full original references can be found in [REFERENCE.md](REFERENCE.md).
 
 
