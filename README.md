@@ -1,7 +1,7 @@
 # Okta IAM Lab Series - Hands-On Architecture & Implementation
 ## Architecture Overview
 Conceptual HR Source (simulated) → AD `allenlab.local` → Okta `*.okta.com - redacted` → RBAC Groups → Apps (Slack, Workspace, SharePoint) → Adaptive MFA / Zero Trust → JML Automation
- ![Architecture_Overview](screenshots/Architecture_Overview.png)
+ ![Architecture_Overview](Overall_Architecture.png)
  
 **Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies)  
 **Target Roles:** IAM Engineer / Identity Engineer / Okta Administrator / Entra ID Engineer (2027)  
