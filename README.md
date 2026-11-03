@@ -61,7 +61,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * Isolated Global Session Policies from application-level Authentication Policies and Authenticator Enrollment Policies to maintain granular access control.
 
 <details>
-<summary>📸 <b>Click to view Lab 1 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>click here to view Lab 1 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -99,7 +99,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * Evaluated standard import workflows: **Incremental Import** for daily delta synchronization vs. **Full Import** for initial reconciliation and bulk schema updates.
 
 <details>
-<summary>📸 <b>Click to view Lab 2 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>click here to view Lab 2 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -129,7 +129,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * Audited governance bypasses in Okta System Logs (`application.user_membership.add`) to detect direct user-to-app assignments and restore strict RBAC posture.
 
 <details>
-<summary>📸 <b>Click to view Lab 3 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>click here to view Lab 3 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -162,7 +162,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * Applied least-privilege entitlements through group memberships rather than direct assignments. Verified user access segregation across distinct user profiles in Incognito test sessions.
 
 <details>
-<summary>📸 <b>Click to view Lab 4 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>click here to view Lab 4 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -196,7 +196,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * Enforced step-up authentication policies on high-value resources (e.g., SharePoint) to challenge active sessions upon accessing sensitive data.
 
 <details>
-<summary>📸 <b>Click to view Lab 5 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>click here to view Lab 5 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -233,7 +233,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 - Supports CSV-driven batch processing for multiple lifecycle actions.
 
 <details>
-<summary>📸 <b>Click to view Lab 6 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>click here to view Lab 6 Diagrams and Screenshots</b></summary>
 
 <br>
 
